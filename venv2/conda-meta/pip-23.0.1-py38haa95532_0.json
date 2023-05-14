@@ -8,7 +8,7 @@
     "setuptools",
     "wheel"
   ],
-  "extracted_package_dir": "C:\\Users\\admin\\.conda\\pkgs\\pip-23.0.1-py38haa95532_0",
+  "extracted_package_dir": "C:\\Users\\shreyash12\\.conda\\pkgs\\pip-23.0.1-py38haa95532_0",
   "features": "",
   "files": [
     "Lib/site-packages/pip-23.0.1-py3.8.egg-info/PKG-INFO",
@@ -1019,12 +1019,12 @@
   "license": "MIT",
   "license_family": "MIT",
   "link": {
-    "source": "C:\\Users\\admin\\.conda\\pkgs\\pip-23.0.1-py38haa95532_0",
+    "source": "C:\\Users\\shreyash12\\.conda\\pkgs\\pip-23.0.1-py38haa95532_0",
     "type": 1
   },
   "md5": "2580b237f17c4aa42110e3e1a66a146a",
   "name": "pip",
-  "package_tarball_full_path": "C:\\Users\\admin\\.conda\\pkgs\\pip-23.0.1-py38haa95532_0.conda",
+  "package_tarball_full_path": "C:\\Users\\shreyash12\\.conda\\pkgs\\pip-23.0.1-py38haa95532_0.conda",
   "paths_data": {
     "paths": [
       {

@@ -10,7 +10,7 @@
     "vs2015_runtime >=14.16.27012,<15.0a0",
     "pip"
   ],
-  "extracted_package_dir": "C:\\Users\\admin\\.conda\\pkgs\\python-3.8.0-hff0d562_2",
+  "extracted_package_dir": "C:\\Users\\shreyash12\\.conda\\pkgs\\python-3.8.0-hff0d562_2",
   "features": "",
   "files": [
     "DLLs/_asyncio.pyd",
@@ -3601,12 +3601,12 @@
   "legacy_bz2_size": 20526587,
   "license": "PSF",
   "link": {
-    "source": "C:\\Users\\admin\\.conda\\pkgs\\python-3.8.0-hff0d562_2",
+    "source": "C:\\Users\\shreyash12\\.conda\\pkgs\\python-3.8.0-hff0d562_2",
     "type": 1
   },
   "md5": "4f326212c0078f378aeae4b8dfb9605c",
   "name": "python",
-  "package_tarball_full_path": "C:\\Users\\admin\\.conda\\pkgs\\python-3.8.0-hff0d562_2.conda",
+  "package_tarball_full_path": "C:\\Users\\shreyash12\\.conda\\pkgs\\python-3.8.0-hff0d562_2.conda",
   "paths_data": {
     "paths": [
       {

@@ -1,0 +1,45 @@
+<html>
+<body>
+<form action="{{url_for('predict_datapoint')}}" method="POST">
+    <div class="form-group">
+        <label for="Open">Open:</label>
+        <input type="text" id="Open" name="Open" placeholder="Enter Open value (float)">
+    </div>
+
+    <div class="form-group">
+        <label for="High">High:</label>
+        <input type="High" id="SEX" name="High" placeholder="Enter High value (float)">
+    </div>
+
+    <div class="form-group">
+        <label for="Low">Low:</label>
+        <input type="Low" id="Low" name="Low" placeholder="Enter Low value (float)">
+    </div>
+    
+    <div class="form-group">
+        <label for="Close">Close:</label>
+        <input type="Close" id="Close" name="Close" placeholder="Enter Close value (float)">
+    </div>
+
+    <div class="form-group">
+        <label for="Volume">Volume:</label>
+        <input type="Volume" id="Volume" name="Volume" placeholder="Enter Volume value (float)">
+    </div>
+
+    <div class="form-group">
+        <label for="Market_Cap">Market_Cap:</label>
+        <input type="Market_Cap" id="Market_Cap" name="Market_Cap" placeholder="Enter Market_Cap value (float)">
+    </div>
+
+    <div class="form-group">
+        <label for="Tomorrow">Tomorrow:</label>
+        <input type="Tomorrow" id="Tomorrow" name="Tomorrow" placeholder="Enter Tomorrow value (float)">
+    </div>
+
+    
+
+    <div style="clear:both;"></div>
+  <input type="submit" value="Submit">
+</form>
+</body>
+</html>

@@ -8,7 +8,7 @@
     "vc >=14.1,<15.0a0",
     "vs2015_runtime >=14.16.27012,<15.0a0"
   ],
-  "extracted_package_dir": "C:\\Users\\admin\\.conda\\pkgs\\openssl-1.1.1t-h2bbff1b_0",
+  "extracted_package_dir": "C:\\Users\\shreyash12\\.conda\\pkgs\\openssl-1.1.1t-h2bbff1b_0",
   "features": "",
   "files": [
     "Library/bin/c_rehash.pl",
@@ -144,12 +144,12 @@
   "license": "OpenSSL",
   "license_family": "Apache",
   "link": {
-    "source": "C:\\Users\\admin\\.conda\\pkgs\\openssl-1.1.1t-h2bbff1b_0",
+    "source": "C:\\Users\\shreyash12\\.conda\\pkgs\\openssl-1.1.1t-h2bbff1b_0",
     "type": 1
   },
   "md5": "82ead46f7c0f0b12f41ebc118d38973e",
   "name": "openssl",
-  "package_tarball_full_path": "C:\\Users\\admin\\.conda\\pkgs\\openssl-1.1.1t-h2bbff1b_0.conda",
+  "package_tarball_full_path": "C:\\Users\\shreyash12\\.conda\\pkgs\\openssl-1.1.1t-h2bbff1b_0.conda",
   "paths_data": {
     "paths": [
       {
@@ -158,7 +158,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "C:\\\\b\\\\abs_6cfpa_xmj1\\\\croot\\\\openssl_1676331029315\\\\_h_env",
         "sha256": "12b2c6bf3392567b00a865dc145787c6d93fcbe079dc6809ebfb34104302fe8d",
-        "sha256_in_prefix": "17a84ef858a1f6f28b58e536e69ee969ab11badc74c685a93c04eeb992f6f294",
+        "sha256_in_prefix": "90a3b821fa3d9edac07b01efc96fe27dce2d88a0700887ef29ae3fccf628f327",
         "size_in_bytes": 7104
       },
       {

@@ -6,7 +6,7 @@
   "depends": [
     "python >=3.8,<3.9.0a0"
   ],
-  "extracted_package_dir": "C:\\Users\\admin\\.conda\\pkgs\\wincertstore-0.2-py38haa95532_2",
+  "extracted_package_dir": "C:\\Users\\shreyash12\\.conda\\pkgs\\wincertstore-0.2-py38haa95532_2",
   "features": "",
   "files": [
     "Lib/site-packages/__pycache__/wincertstore.cpython-38.pyc",
@@ -18,12 +18,12 @@
   "legacy_bz2_size": 15484,
   "license": "PSF 2",
   "link": {
-    "source": "C:\\Users\\admin\\.conda\\pkgs\\wincertstore-0.2-py38haa95532_2",
+    "source": "C:\\Users\\shreyash12\\.conda\\pkgs\\wincertstore-0.2-py38haa95532_2",
     "type": 1
   },
   "md5": "4b57c7971032ee4f4af19408b133ee16",
   "name": "wincertstore",
-  "package_tarball_full_path": "C:\\Users\\admin\\.conda\\pkgs\\wincertstore-0.2-py38haa95532_2.conda",
+  "package_tarball_full_path": "C:\\Users\\shreyash12\\.conda\\pkgs\\wincertstore-0.2-py38haa95532_2.conda",
   "paths_data": {
     "paths": [
       {

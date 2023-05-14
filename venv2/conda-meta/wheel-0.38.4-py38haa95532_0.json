@@ -6,7 +6,7 @@
   "depends": [
     "python >=3.8,<3.9.0a0"
   ],
-  "extracted_package_dir": "C:\\Users\\admin\\.conda\\pkgs\\wheel-0.38.4-py38haa95532_0",
+  "extracted_package_dir": "C:\\Users\\shreyash12\\.conda\\pkgs\\wheel-0.38.4-py38haa95532_0",
   "features": "",
   "files": [
     "Lib/site-packages/wheel-0.38.4-py3.8.egg-info/PKG-INFO",
@@ -59,12 +59,12 @@
   "license": "MIT",
   "license_family": "MIT",
   "link": {
-    "source": "C:\\Users\\admin\\.conda\\pkgs\\wheel-0.38.4-py38haa95532_0",
+    "source": "C:\\Users\\shreyash12\\.conda\\pkgs\\wheel-0.38.4-py38haa95532_0",
     "type": 1
   },
   "md5": "1d04f938d3d78c66e53fae4613d5fb01",
   "name": "wheel",
-  "package_tarball_full_path": "C:\\Users\\admin\\.conda\\pkgs\\wheel-0.38.4-py38haa95532_0.conda",
+  "package_tarball_full_path": "C:\\Users\\shreyash12\\.conda\\pkgs\\wheel-0.38.4-py38haa95532_0.conda",
   "paths_data": {
     "paths": [
       {

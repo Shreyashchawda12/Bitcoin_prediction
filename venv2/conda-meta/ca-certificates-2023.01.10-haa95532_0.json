@@ -4,7 +4,7 @@
   "channel": "https://repo.anaconda.com/pkgs/main/win-64",
   "constrains": [],
   "depends": [],
-  "extracted_package_dir": "C:\\Users\\admin\\.conda\\pkgs\\ca-certificates-2023.01.10-haa95532_0",
+  "extracted_package_dir": "C:\\Users\\shreyash12\\.conda\\pkgs\\ca-certificates-2023.01.10-haa95532_0",
   "features": "",
   "files": [
     "Library/ssl/cacert.pem",
@@ -16,12 +16,12 @@
   "license": "MPL-2.0",
   "license_family": "Other",
   "link": {
-    "source": "C:\\Users\\admin\\.conda\\pkgs\\ca-certificates-2023.01.10-haa95532_0",
+    "source": "C:\\Users\\shreyash12\\.conda\\pkgs\\ca-certificates-2023.01.10-haa95532_0",
     "type": 1
   },
   "md5": "04f0fa7acb475a90bef9a3524b416e02",
   "name": "ca-certificates",
-  "package_tarball_full_path": "C:\\Users\\admin\\.conda\\pkgs\\ca-certificates-2023.01.10-haa95532_0.conda",
+  "package_tarball_full_path": "C:\\Users\\shreyash12\\.conda\\pkgs\\ca-certificates-2023.01.10-haa95532_0.conda",
   "paths_data": {
     "paths": [
       {
