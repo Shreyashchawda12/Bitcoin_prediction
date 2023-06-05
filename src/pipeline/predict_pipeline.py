@@ -35,8 +35,7 @@ class CustomData:
                  Low:float,
                  Close:float,
                  Volume:float,
-                 Market_Cap:float,
-                 Tomorrow:float,
+                 Market_Cap:float
                  ):
         
         self.Open=Open
@@ -45,7 +44,7 @@ class CustomData:
         self.Close=Close	
         self.Volume=Volume
         self.Market_Cap=Market_Cap
-        self.Tomorrow = Tomorrow
+        
         
 
     def get_data_as_dataframe(self):
@@ -56,8 +55,7 @@ class CustomData:
                 'Low':[self.Low],
                 'Close':[self.Close],
                 'Volume':[self.Volume],
-                'Market_Cap':[self.Market_Cap],
-                'Tomorrow':[self.Tomorrow]
+                'Market_Cap':[self.Market_Cap]
                 
             }
             df = pd.DataFrame(custom_data_input_dict)

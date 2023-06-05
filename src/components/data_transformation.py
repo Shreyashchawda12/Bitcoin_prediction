@@ -30,7 +30,7 @@ class DataTransformation:
     def get_data_transformation_object(self):
         try:
             logging.info('Data Transformation started')
-            numerical_cols = ['Open', 'High', 'Low', 'Close', 'Volume', 'Market_Cap', 'Tomorrow']
+            numerical_cols = ['Open', 'High', 'Low', 'Close', 'Volume', 'Market_Cap']
             
             logging.info('Pipeline Initiated')
             

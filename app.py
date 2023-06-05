@@ -25,8 +25,7 @@ def predict_datapoint():
             Low=float(request.form.get('Low')),
             Close=float(request.form.get('Close')),
             Volume=float(request.form.get('Volume')),
-            Market_Cap=float(request.form.get('Market_Cap')),
-            Tomorrow = float(request.form.get('Tomorrow')),
+            Market_Cap=float(request.form.get('Market_Cap'))
             
            
         )
