@@ -1,0 +1,372 @@
+{
+  "build": "py38h7ae7562_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/win-64",
+  "constrains": [],
+  "depends": [
+    "convertdate >=2.1.2",
+    "holidays >=0.10.2",
+    "lunarcalendar >=0.0.9",
+    "m2w64-toolchain",
+    "matplotlib-base >=2.0.0",
+    "numpy >=1.15.4",
+    "pandas >=1.0.4",
+    "pystan >=2.14",
+    "python >=3.8,<3.9.0a0",
+    "python-dateutil >=2.8.0",
+    "python_abi 3.8.* *_cp38",
+    "setuptools",
+    "tqdm >=4.36.1",
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012"
+  ],
+  "extracted_package_dir": "C:\\Users\\shreyash12\\.conda\\pkgs\\fbprophet-0.7.1-py38h7ae7562_0",
+  "features": "",
+  "files": [
+    "Lib/site-packages/fbprophet-0.7.1.dist-info/INSTALLER",
+    "Lib/site-packages/fbprophet-0.7.1.dist-info/LICENSE",
+    "Lib/site-packages/fbprophet-0.7.1.dist-info/METADATA",
+    "Lib/site-packages/fbprophet-0.7.1.dist-info/RECORD",
+    "Lib/site-packages/fbprophet-0.7.1.dist-info/REQUESTED",
+    "Lib/site-packages/fbprophet-0.7.1.dist-info/WHEEL",
+    "Lib/site-packages/fbprophet-0.7.1.dist-info/direct_url.json",
+    "Lib/site-packages/fbprophet-0.7.1.dist-info/top_level.txt",
+    "Lib/site-packages/fbprophet/__init__.py",
+    "Lib/site-packages/fbprophet/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/fbprophet/__pycache__/diagnostics.cpython-38.pyc",
+    "Lib/site-packages/fbprophet/__pycache__/forecaster.cpython-38.pyc",
+    "Lib/site-packages/fbprophet/__pycache__/hdays.cpython-38.pyc",
+    "Lib/site-packages/fbprophet/__pycache__/make_holidays.cpython-38.pyc",
+    "Lib/site-packages/fbprophet/__pycache__/models.cpython-38.pyc",
+    "Lib/site-packages/fbprophet/__pycache__/plot.cpython-38.pyc",
+    "Lib/site-packages/fbprophet/__pycache__/serialize.cpython-38.pyc",
+    "Lib/site-packages/fbprophet/__pycache__/utilities.cpython-38.pyc",
+    "Lib/site-packages/fbprophet/diagnostics.py",
+    "Lib/site-packages/fbprophet/forecaster.py",
+    "Lib/site-packages/fbprophet/hdays.py",
+    "Lib/site-packages/fbprophet/make_holidays.py",
+    "Lib/site-packages/fbprophet/models.py",
+    "Lib/site-packages/fbprophet/plot.py",
+    "Lib/site-packages/fbprophet/serialize.py",
+    "Lib/site-packages/fbprophet/stan_model/prophet_model.pkl",
+    "Lib/site-packages/fbprophet/tests/__init__.py",
+    "Lib/site-packages/fbprophet/tests/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/fbprophet/tests/__pycache__/test_diagnostics.cpython-38.pyc",
+    "Lib/site-packages/fbprophet/tests/__pycache__/test_prophet.cpython-38.pyc",
+    "Lib/site-packages/fbprophet/tests/__pycache__/test_serialize.cpython-38.pyc",
+    "Lib/site-packages/fbprophet/tests/__pycache__/test_utilities.cpython-38.pyc",
+    "Lib/site-packages/fbprophet/tests/data.csv",
+    "Lib/site-packages/fbprophet/tests/data2.csv",
+    "Lib/site-packages/fbprophet/tests/serialized_model_v0.6.1.dev0.json",
+    "Lib/site-packages/fbprophet/tests/test_diagnostics.py",
+    "Lib/site-packages/fbprophet/tests/test_prophet.py",
+    "Lib/site-packages/fbprophet/tests/test_serialize.py",
+    "Lib/site-packages/fbprophet/tests/test_utilities.py",
+    "Lib/site-packages/fbprophet/utilities.py"
+  ],
+  "fn": "fbprophet-0.7.1-py38h7ae7562_0.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "C:\\Users\\shreyash12\\.conda\\pkgs\\fbprophet-0.7.1-py38h7ae7562_0",
+    "type": 1
+  },
+  "md5": "25bfd5c0d53a4521942114abf0c6b277",
+  "name": "fbprophet",
+  "package_tarball_full_path": "C:\\Users\\shreyash12\\.conda\\pkgs\\fbprophet-0.7.1-py38h7ae7562_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Lib/site-packages/fbprophet-0.7.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "Lib/site-packages/fbprophet-0.7.1.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "52412d7bc7ce4157ea628bbaacb8829e0a9cb3c58f57f99176126bc8cf2bfc85",
+        "sha256_in_prefix": "52412d7bc7ce4157ea628bbaacb8829e0a9cb3c58f57f99176126bc8cf2bfc85",
+        "size_in_bytes": 1086
+      },
+      {
+        "_path": "Lib/site-packages/fbprophet-0.7.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "595a54495c406f3d2df73046b554cc3313ed58de9bbe017a9b189f98a0cff89d",
+        "sha256_in_prefix": "595a54495c406f3d2df73046b554cc3313ed58de9bbe017a9b189f98a0cff89d",
+        "size_in_bytes": 3025
+      },
+      {
+        "_path": "Lib/site-packages/fbprophet-0.7.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "bb8f5abcc00631c95f34b5655f1d29882ae2818b2df82fb724e525dcbca6e9cb",
+        "sha256_in_prefix": "bb8f5abcc00631c95f34b5655f1d29882ae2818b2df82fb724e525dcbca6e9cb",
+        "size_in_bytes": 2958
+      },
+      {
+        "_path": "Lib/site-packages/fbprophet-0.7.1.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/fbprophet-0.7.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "0f55a1d789160f13e7accfb9b7fe94081f94b9036b10e0ed45adef1783acbd06",
+        "sha256_in_prefix": "0f55a1d789160f13e7accfb9b7fe94081f94b9036b10e0ed45adef1783acbd06",
+        "size_in_bytes": 97
+      },
+      {
+        "_path": "Lib/site-packages/fbprophet-0.7.1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "6c429a11d0986a031f32ce14f343be9271c44e709d44dc32efb80a0e15dfedee",
+        "sha256_in_prefix": "6c429a11d0986a031f32ce14f343be9271c44e709d44dc32efb80a0e15dfedee",
+        "size_in_bytes": 70
+      },
+      {
+        "_path": "Lib/site-packages/fbprophet-0.7.1.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "5e44f1f15f11d051e2dfa0a42a83212fd63ee07916190c025293e61eefba664d",
+        "sha256_in_prefix": "5e44f1f15f11d051e2dfa0a42a83212fd63ee07916190c025293e61eefba664d",
+        "size_in_bytes": 10
+      },
+      {
+        "_path": "Lib/site-packages/fbprophet/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "7e9accd312ccc5e65042018573edb47bc8699e80a8c70dc7674957feee083457",
+        "sha256_in_prefix": "7e9accd312ccc5e65042018573edb47bc8699e80a8c70dc7674957feee083457",
+        "size_in_bytes": 361
+      },
+      {
+        "_path": "Lib/site-packages/fbprophet/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "e1ffc09c51b954794fb60bbd69cb4902ff2bdd2c9d2e56d5bd8ac653af1bdf47",
+        "sha256_in_prefix": "e1ffc09c51b954794fb60bbd69cb4902ff2bdd2c9d2e56d5bd8ac653af1bdf47",
+        "size_in_bytes": 208
+      },
+      {
+        "_path": "Lib/site-packages/fbprophet/__pycache__/diagnostics.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "729754a21e51647f2ded3eb27e2c05a3b9f9ae091b217ba2db4b579c7f3f113c",
+        "sha256_in_prefix": "729754a21e51647f2ded3eb27e2c05a3b9f9ae091b217ba2db4b579c7f3f113c",
+        "size_in_bytes": 17268
+      },
+      {
+        "_path": "Lib/site-packages/fbprophet/__pycache__/forecaster.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "1411bb06d824a8022c54ddcbf298b46c9b8df2d7c340b013ea4c70557c38a800",
+        "sha256_in_prefix": "1411bb06d824a8022c54ddcbf298b46c9b8df2d7c340b013ea4c70557c38a800",
+        "size_in_bytes": 47852
+      },
+      {
+        "_path": "Lib/site-packages/fbprophet/__pycache__/hdays.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "9f89b79f2621753b095c59dc1f5a358bf80f6b40e8a5aeb8b97f8477745f5934",
+        "sha256_in_prefix": "9f89b79f2621753b095c59dc1f5a358bf80f6b40e8a5aeb8b97f8477745f5934",
+        "size_in_bytes": 26547
+      },
+      {
+        "_path": "Lib/site-packages/fbprophet/__pycache__/make_holidays.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "9a5e92ca0c7e1c230320f6076a3b5f025f8db233676822bcf2723d76dbb56c59",
+        "sha256_in_prefix": "9a5e92ca0c7e1c230320f6076a3b5f025f8db233676822bcf2723d76dbb56c59",
+        "size_in_bytes": 2075
+      },
+      {
+        "_path": "Lib/site-packages/fbprophet/__pycache__/models.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "62817445e19404968d955c8161c73ea40e50556d3e363a959603f2f1fcc1ddf5",
+        "sha256_in_prefix": "62817445e19404968d955c8161c73ea40e50556d3e363a959603f2f1fcc1ddf5",
+        "size_in_bytes": 7779
+      },
+      {
+        "_path": "Lib/site-packages/fbprophet/__pycache__/plot.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "16f8862639483f9d296e9f6c26070cc992f37e5f91479df263a29d08c33d359d",
+        "sha256_in_prefix": "16f8862639483f9d296e9f6c26070cc992f37e5f91479df263a29d08c33d359d",
+        "size_in_bytes": 26666
+      },
+      {
+        "_path": "Lib/site-packages/fbprophet/__pycache__/serialize.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "003756810b3e488894f3e9e4199a2bdbcd683cbf8dc545498d480ca3801b1553",
+        "sha256_in_prefix": "003756810b3e488894f3e9e4199a2bdbcd683cbf8dc545498d480ca3801b1553",
+        "size_in_bytes": 3989
+      },
+      {
+        "_path": "Lib/site-packages/fbprophet/__pycache__/utilities.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "5f978a51e3cca205638a30a6fc735fcc59ba09c6135ed4fa1facc2ae431b0573",
+        "sha256_in_prefix": "5f978a51e3cca205638a30a6fc735fcc59ba09c6135ed4fa1facc2ae431b0573",
+        "size_in_bytes": 2583
+      },
+      {
+        "_path": "Lib/site-packages/fbprophet/diagnostics.py",
+        "path_type": "hardlink",
+        "sha256": "352236cffabc007a354e5f60b800e5cb2bd18395fcecef3538f3066f8ad8b607",
+        "sha256_in_prefix": "352236cffabc007a354e5f60b800e5cb2bd18395fcecef3538f3066f8ad8b607",
+        "size_in_bytes": 21160
+      },
+      {
+        "_path": "Lib/site-packages/fbprophet/forecaster.py",
+        "path_type": "hardlink",
+        "sha256": "324ad5e1ed8f079d6f96dce8aab67281f106c0425f3494219581d8e0d06b2afa",
+        "sha256_in_prefix": "324ad5e1ed8f079d6f96dce8aab67281f106c0425f3494219581d8e0d06b2afa",
+        "size_in_bytes": 63997
+      },
+      {
+        "_path": "Lib/site-packages/fbprophet/hdays.py",
+        "path_type": "hardlink",
+        "sha256": "b96a9873061f49716c0d61e4fee87ff34c013c3f715c0df1fb786782adc4bf4f",
+        "sha256_in_prefix": "b96a9873061f49716c0d61e4fee87ff34c013c3f715c0df1fb786782adc4bf4f",
+        "size_in_bytes": 44554
+      },
+      {
+        "_path": "Lib/site-packages/fbprophet/make_holidays.py",
+        "path_type": "hardlink",
+        "sha256": "28bd34cb4c6f739c34b6b505bc0a376d11497e05067558e80297be3d8adbaea7",
+        "sha256_in_prefix": "28bd34cb4c6f739c34b6b505bc0a376d11497e05067558e80297be3d8adbaea7",
+        "size_in_bytes": 2196
+      },
+      {
+        "_path": "Lib/site-packages/fbprophet/models.py",
+        "path_type": "hardlink",
+        "sha256": "dab1ba2a0bc5eff5ff237a895caacac6ccf85c7addd33ede28c028c08c11cce7",
+        "sha256_in_prefix": "dab1ba2a0bc5eff5ff237a895caacac6ccf85c7addd33ede28c028c08c11cce7",
+        "size_in_bytes": 8723
+      },
+      {
+        "_path": "Lib/site-packages/fbprophet/plot.py",
+        "path_type": "hardlink",
+        "sha256": "320f459e052d7452ae776984f3946b46b60e632f8dcdd8ab33773892a1ea28c2",
+        "sha256_in_prefix": "320f459e052d7452ae776984f3946b46b60e632f8dcdd8ab33773892a1ea28c2",
+        "size_in_bytes": 35805
+      },
+      {
+        "_path": "Lib/site-packages/fbprophet/serialize.py",
+        "path_type": "hardlink",
+        "sha256": "6b88104bd704f0c893c4606cf8306758f5eace08e5a149e7296a42712c7b06cc",
+        "sha256_in_prefix": "6b88104bd704f0c893c4606cf8306758f5eace08e5a149e7296a42712c7b06cc",
+        "size_in_bytes": 5185
+      },
+      {
+        "_path": "Lib/site-packages/fbprophet/stan_model/prophet_model.pkl",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "D:\\bld\\fbprophet_1599365958928\\_h_env",
+        "sha256": "958cf35522ebfb3ee37c6cf7ce708dd0404451f13cc61f6ef543854589904e5d",
+        "sha256_in_prefix": "958cf35522ebfb3ee37c6cf7ce708dd0404451f13cc61f6ef543854589904e5d",
+        "size_in_bytes": 1218644
+      },
+      {
+        "_path": "Lib/site-packages/fbprophet/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/fbprophet/tests/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "4c1597525d5e2b21f0784f53a3964341a443ecc8878f4c03324b6fa082e8c7b8",
+        "sha256_in_prefix": "4c1597525d5e2b21f0784f53a3964341a443ecc8878f4c03324b6fa082e8c7b8",
+        "size_in_bytes": 136
+      },
+      {
+        "_path": "Lib/site-packages/fbprophet/tests/__pycache__/test_diagnostics.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "5c87c95976094b64fec28f5824d5f6770036bbb8de0270867710405b737ef39f",
+        "sha256_in_prefix": "5c87c95976094b64fec28f5824d5f6770036bbb8de0270867710405b737ef39f",
+        "size_in_bytes": 11586
+      },
+      {
+        "_path": "Lib/site-packages/fbprophet/tests/__pycache__/test_prophet.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "868bcd4206339d6b3e6619019b02b40c7c870174b8ce3e182be3a8fbcffdeece",
+        "sha256_in_prefix": "868bcd4206339d6b3e6619019b02b40c7c870174b8ce3e182be3a8fbcffdeece",
+        "size_in_bytes": 23728
+      },
+      {
+        "_path": "Lib/site-packages/fbprophet/tests/__pycache__/test_serialize.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "8a0eddfb10d540fbe296fba3292991b465faec34cae46829c309529f58c30dc8",
+        "sha256_in_prefix": "8a0eddfb10d540fbe296fba3292991b465faec34cae46829c309529f58c30dc8",
+        "size_in_bytes": 4431
+      },
+      {
+        "_path": "Lib/site-packages/fbprophet/tests/__pycache__/test_utilities.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "2207b6574ae896989217a59edd8fed2d2f6bfed72340726d2b082eb867c428b2",
+        "sha256_in_prefix": "2207b6574ae896989217a59edd8fed2d2f6bfed72340726d2b082eb867c428b2",
+        "size_in_bytes": 1393
+      },
+      {
+        "_path": "Lib/site-packages/fbprophet/tests/data.csv",
+        "path_type": "hardlink",
+        "sha256": "cb2fa552bcece54f09e211a318824c6f341df300e71c4786662092b8786c61fc",
+        "sha256_in_prefix": "cb2fa552bcece54f09e211a318824c6f341df300e71c4786662092b8786c61fc",
+        "size_in_bytes": 8628
+      },
+      {
+        "_path": "Lib/site-packages/fbprophet/tests/data2.csv",
+        "path_type": "hardlink",
+        "sha256": "c0d849d0108dbc1e46df30272a2260b22b621997b85e81549591ff07c2848b01",
+        "sha256_in_prefix": "c0d849d0108dbc1e46df30272a2260b22b621997b85e81549591ff07c2848b01",
+        "size_in_bytes": 21518
+      },
+      {
+        "_path": "Lib/site-packages/fbprophet/tests/serialized_model_v0.6.1.dev0.json",
+        "path_type": "hardlink",
+        "sha256": "410d0b8a9cc51ebe6d0e003030d8bedb361e71c695f576df43d57fcbbb6ccead",
+        "sha256_in_prefix": "410d0b8a9cc51ebe6d0e003030d8bedb361e71c695f576df43d57fcbbb6ccead",
+        "size_in_bytes": 7085
+      },
+      {
+        "_path": "Lib/site-packages/fbprophet/tests/test_diagnostics.py",
+        "path_type": "hardlink",
+        "sha256": "bb938d89d3ddaa385a2cb915e8a7abc51a46b8afb9ac88add85a8b547a8b0771",
+        "sha256_in_prefix": "bb938d89d3ddaa385a2cb915e8a7abc51a46b8afb9ac88add85a8b547a8b0771",
+        "size_in_bytes": 15847
+      },
+      {
+        "_path": "Lib/site-packages/fbprophet/tests/test_prophet.py",
+        "path_type": "hardlink",
+        "sha256": "5f79c4d9e770a43024a60461287a86ec413455742c6196b64108f05b80d45657",
+        "sha256_in_prefix": "5f79c4d9e770a43024a60461287a86ec413455742c6196b64108f05b80d45657",
+        "size_in_bytes": 33409
+      },
+      {
+        "_path": "Lib/site-packages/fbprophet/tests/test_serialize.py",
+        "path_type": "hardlink",
+        "sha256": "9ce0f7b5b8c3426ab0379b409a54498730176954e594005cb528f7f769f7fee6",
+        "sha256_in_prefix": "9ce0f7b5b8c3426ab0379b409a54498730176954e594005cb528f7f769f7fee6",
+        "size_in_bytes": 5993
+      },
+      {
+        "_path": "Lib/site-packages/fbprophet/tests/test_utilities.py",
+        "path_type": "hardlink",
+        "sha256": "e1638364deb1313af7082a41f76a688d8588944a073c094378db4659c20824a6",
+        "sha256_in_prefix": "e1638364deb1313af7082a41f76a688d8588944a073c094378db4659c20824a6",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "Lib/site-packages/fbprophet/utilities.py",
+        "path_type": "hardlink",
+        "sha256": "6416517acfa20f8bf21c1b0734256aa0a4bdce2eb496aca0a3716d1a601ef4cf",
+        "sha256_in_prefix": "6416517acfa20f8bf21c1b0734256aa0a4bdce2eb496aca0a3716d1a601ef4cf",
+        "size_in_bytes": 2743
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "fbprophet",
+  "sha256": "a818197be22636a0980623d20d43c4b7f96521a07a689e6b52cea9562f0eedc8",
+  "size": 585254,
+  "subdir": "win-64",
+  "timestamp": 1599367137362,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/fbprophet-0.7.1-py38h7ae7562_0.tar.bz2",
+  "version": "0.7.1"
+}

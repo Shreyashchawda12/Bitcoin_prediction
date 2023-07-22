@@ -1,0 +1,370 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.6"
+  ],
+  "extracted_package_dir": "C:\\Users\\shreyash12\\.conda\\pkgs\\pymeeus-0.5.12-pyhd8ed1ab_0",
+  "features": "",
+  "files": [
+    "Lib/site-packages/PyMeeus-0.5.12.dist-info/COPYING.LESSER",
+    "Lib/site-packages/PyMeeus-0.5.12.dist-info/INSTALLER",
+    "Lib/site-packages/PyMeeus-0.5.12.dist-info/LICENSE.txt",
+    "Lib/site-packages/PyMeeus-0.5.12.dist-info/METADATA",
+    "Lib/site-packages/PyMeeus-0.5.12.dist-info/RECORD",
+    "Lib/site-packages/PyMeeus-0.5.12.dist-info/REQUESTED",
+    "Lib/site-packages/PyMeeus-0.5.12.dist-info/WHEEL",
+    "Lib/site-packages/PyMeeus-0.5.12.dist-info/direct_url.json",
+    "Lib/site-packages/PyMeeus-0.5.12.dist-info/top_level.txt",
+    "Lib/site-packages/pymeeus/Angle.py",
+    "Lib/site-packages/pymeeus/Coordinates.py",
+    "Lib/site-packages/pymeeus/CurveFitting.py",
+    "Lib/site-packages/pymeeus/Earth.py",
+    "Lib/site-packages/pymeeus/Epoch.py",
+    "Lib/site-packages/pymeeus/Interpolation.py",
+    "Lib/site-packages/pymeeus/Jupiter.py",
+    "Lib/site-packages/pymeeus/JupiterMoons.py",
+    "Lib/site-packages/pymeeus/Mars.py",
+    "Lib/site-packages/pymeeus/Mercury.py",
+    "Lib/site-packages/pymeeus/Minor.py",
+    "Lib/site-packages/pymeeus/Moon.py",
+    "Lib/site-packages/pymeeus/Neptune.py",
+    "Lib/site-packages/pymeeus/Pluto.py",
+    "Lib/site-packages/pymeeus/Saturn.py",
+    "Lib/site-packages/pymeeus/Sun.py",
+    "Lib/site-packages/pymeeus/Uranus.py",
+    "Lib/site-packages/pymeeus/Venus.py",
+    "Lib/site-packages/pymeeus/__init__.py",
+    "Lib/site-packages/pymeeus/base.py",
+    "Lib/site-packages/pymeeus/__pycache__/Angle.cpython-38.pyc",
+    "Lib/site-packages/pymeeus/__pycache__/Coordinates.cpython-38.pyc",
+    "Lib/site-packages/pymeeus/__pycache__/CurveFitting.cpython-38.pyc",
+    "Lib/site-packages/pymeeus/__pycache__/Earth.cpython-38.pyc",
+    "Lib/site-packages/pymeeus/__pycache__/Epoch.cpython-38.pyc",
+    "Lib/site-packages/pymeeus/__pycache__/Interpolation.cpython-38.pyc",
+    "Lib/site-packages/pymeeus/__pycache__/Jupiter.cpython-38.pyc",
+    "Lib/site-packages/pymeeus/__pycache__/JupiterMoons.cpython-38.pyc",
+    "Lib/site-packages/pymeeus/__pycache__/Mars.cpython-38.pyc",
+    "Lib/site-packages/pymeeus/__pycache__/Mercury.cpython-38.pyc",
+    "Lib/site-packages/pymeeus/__pycache__/Minor.cpython-38.pyc",
+    "Lib/site-packages/pymeeus/__pycache__/Moon.cpython-38.pyc",
+    "Lib/site-packages/pymeeus/__pycache__/Neptune.cpython-38.pyc",
+    "Lib/site-packages/pymeeus/__pycache__/Pluto.cpython-38.pyc",
+    "Lib/site-packages/pymeeus/__pycache__/Saturn.cpython-38.pyc",
+    "Lib/site-packages/pymeeus/__pycache__/Sun.cpython-38.pyc",
+    "Lib/site-packages/pymeeus/__pycache__/Uranus.cpython-38.pyc",
+    "Lib/site-packages/pymeeus/__pycache__/Venus.cpython-38.pyc",
+    "Lib/site-packages/pymeeus/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/pymeeus/__pycache__/base.cpython-38.pyc"
+  ],
+  "fn": "pymeeus-0.5.12-pyhd8ed1ab_0.conda",
+  "license": "LGPL-3.0-or-later",
+  "license_family": "LGPL",
+  "link": {
+    "source": "C:\\Users\\shreyash12\\.conda\\pkgs\\pymeeus-0.5.12-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "7b4688857f9e903d55f67b9a1fceeb94",
+  "name": "pymeeus",
+  "noarch": "python",
+  "package_tarball_full_path": "C:\\Users\\shreyash12\\.conda\\pkgs\\pymeeus-0.5.12-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/PyMeeus-0.5.12.dist-info/COPYING.LESSER",
+        "path_type": "hardlink",
+        "sha256": "e3a994d82e644b03a792a930f574002658412f62407f5fee083f2555c5f23118",
+        "sha256_in_prefix": "e3a994d82e644b03a792a930f574002658412f62407f5fee083f2555c5f23118",
+        "size_in_bytes": 7652
+      },
+      {
+        "_path": "site-packages/PyMeeus-0.5.12.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/PyMeeus-0.5.12.dist-info/LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "e79e9c8a0c85d735ff98185918ec94ed7d175efc377012787aebcf3b80f0d90b",
+        "sha256_in_prefix": "e79e9c8a0c85d735ff98185918ec94ed7d175efc377012787aebcf3b80f0d90b",
+        "size_in_bytes": 35151
+      },
+      {
+        "_path": "site-packages/PyMeeus-0.5.12.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "e36f82b087a19dbceab44fd240be7115747ffb0e3187dcc97e9ca05c8992f756",
+        "sha256_in_prefix": "e36f82b087a19dbceab44fd240be7115747ffb0e3187dcc97e9ca05c8992f756",
+        "size_in_bytes": 9227
+      },
+      {
+        "_path": "site-packages/PyMeeus-0.5.12.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "3f948f16f5994b740b0bc0e6521b0377e5e8575111f88e8c48a64efd744ee83a",
+        "sha256_in_prefix": "3f948f16f5994b740b0bc0e6521b0377e5e8575111f88e8c48a64efd744ee83a",
+        "size_in_bytes": 3245
+      },
+      {
+        "_path": "site-packages/PyMeeus-0.5.12.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/PyMeeus-0.5.12.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "db07a93359e4e034b8785a58ad6d534ea3dca0635f1e184efe2e66e1c3a299ba",
+        "sha256_in_prefix": "db07a93359e4e034b8785a58ad6d534ea3dca0635f1e184efe2e66e1c3a299ba",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/PyMeeus-0.5.12.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "d7e51f5957f8069d5a73ba5915d8af7aff360995faa73be036f48fcc41a37790",
+        "sha256_in_prefix": "d7e51f5957f8069d5a73ba5915d8af7aff360995faa73be036f48fcc41a37790",
+        "size_in_bytes": 103
+      },
+      {
+        "_path": "site-packages/PyMeeus-0.5.12.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "ed90b907c2e18042098b2f03c248dde99c3e17fd3e39e7f693c05a82f8d99772",
+        "sha256_in_prefix": "ed90b907c2e18042098b2f03c248dde99c3e17fd3e39e7f693c05a82f8d99772",
+        "size_in_bytes": 13
+      },
+      {
+        "_path": "site-packages/pymeeus/Angle.py",
+        "path_type": "hardlink",
+        "sha256": "64e97dfb62b836abe68d377a45e7ea59a9c33a992c2a4d5168f4eaed50473fb7",
+        "sha256_in_prefix": "64e97dfb62b836abe68d377a45e7ea59a9c33a992c2a4d5168f4eaed50473fb7",
+        "size_in_bytes": 40633
+      },
+      {
+        "_path": "site-packages/pymeeus/Coordinates.py",
+        "path_type": "hardlink",
+        "sha256": "0a7b44ced8103b5e75a4618751feb79594054357d612787145783ba8eb850241",
+        "sha256_in_prefix": "0a7b44ced8103b5e75a4618751feb79594054357d612787145783ba8eb850241",
+        "size_in_bytes": 137258
+      },
+      {
+        "_path": "site-packages/pymeeus/CurveFitting.py",
+        "path_type": "hardlink",
+        "sha256": "8b79ded250dac94626111bb0c04af8b865cc95b957bb4c22f0470fc5c5b728ff",
+        "sha256_in_prefix": "8b79ded250dac94626111bb0c04af8b865cc95b957bb4c22f0470fc5c5b728ff",
+        "size_in_bytes": 22799
+      },
+      {
+        "_path": "site-packages/pymeeus/Earth.py",
+        "path_type": "hardlink",
+        "sha256": "127b520803cb275e01031aab76f2771faada42d6ff69eee1e35862d9a30110bb",
+        "sha256_in_prefix": "127b520803cb275e01031aab76f2771faada42d6ff69eee1e35862d9a30110bb",
+        "size_in_bytes": 171530
+      },
+      {
+        "_path": "site-packages/pymeeus/Epoch.py",
+        "path_type": "hardlink",
+        "sha256": "42af431e0445a3a0228488aca613c2744d4a46ae658598c04ba0e324bf2f9d46",
+        "sha256_in_prefix": "42af431e0445a3a0228488aca613c2744d4a46ae658598c04ba0e324bf2f9d46",
+        "size_in_bytes": 83137
+      },
+      {
+        "_path": "site-packages/pymeeus/Interpolation.py",
+        "path_type": "hardlink",
+        "sha256": "e43ce394a54fdef343a87e0f259cc30dc98ca299dffbe28deef8944034af7004",
+        "sha256_in_prefix": "e43ce394a54fdef343a87e0f259cc30dc98ca299dffbe28deef8944034af7004",
+        "size_in_bytes": 27702
+      },
+      {
+        "_path": "site-packages/pymeeus/Jupiter.py",
+        "path_type": "hardlink",
+        "sha256": "3bb8aff949a9bd95ba9d60175b5f02e8357c163706de4f89bd62af704977134e",
+        "sha256_in_prefix": "3bb8aff949a9bd95ba9d60175b5f02e8357c163706de4f89bd62af704977134e",
+        "size_in_bytes": 201476
+      },
+      {
+        "_path": "site-packages/pymeeus/JupiterMoons.py",
+        "path_type": "hardlink",
+        "sha256": "fa9ea32e22ce8fc07a14c72aa60bb6b6d3261a74d63e7f8b2f09d9c8075f24e1",
+        "sha256_in_prefix": "fa9ea32e22ce8fc07a14c72aa60bb6b6d3261a74d63e7f8b2f09d9c8075f24e1",
+        "size_in_bytes": 56529
+      },
+      {
+        "_path": "site-packages/pymeeus/Mars.py",
+        "path_type": "hardlink",
+        "sha256": "e012e103f0a5a2a151caac488b67bf727acf9d36821f293e55540d0da0d4ff70",
+        "sha256_in_prefix": "e012e103f0a5a2a151caac488b67bf727acf9d36821f293e55540d0da0d4ff70",
+        "size_in_bytes": 304301
+      },
+      {
+        "_path": "site-packages/pymeeus/Mercury.py",
+        "path_type": "hardlink",
+        "sha256": "7efe97906cf2f2a339c029d703da762f77ec434b6df97e25a360d2d45480cf91",
+        "sha256_in_prefix": "7efe97906cf2f2a339c029d703da762f77ec434b6df97e25a360d2d45480cf91",
+        "size_in_bytes": 385366
+      },
+      {
+        "_path": "site-packages/pymeeus/Minor.py",
+        "path_type": "hardlink",
+        "sha256": "bad26019afea9328cec784e1ed1a312e6f304e5faf7025420b62dd385a4a5274",
+        "sha256_in_prefix": "bad26019afea9328cec784e1ed1a312e6f304e5faf7025420b62dd385a4a5274",
+        "size_in_bytes": 16428
+      },
+      {
+        "_path": "site-packages/pymeeus/Moon.py",
+        "path_type": "hardlink",
+        "sha256": "e0c3a27a174c25993989c2cb78cb75706a8685476890e3187bf7c139efe0778e",
+        "sha256_in_prefix": "e0c3a27a174c25993989c2cb78cb75706a8685476890e3187bf7c139efe0778e",
+        "size_in_bytes": 79162
+      },
+      {
+        "_path": "site-packages/pymeeus/Neptune.py",
+        "path_type": "hardlink",
+        "sha256": "db4ca710940eb2899a2ee310e80ccd380abc53f25d219f4c6352b2bca63485cf",
+        "sha256_in_prefix": "db4ca710940eb2899a2ee310e80ccd380abc53f25d219f4c6352b2bca63485cf",
+        "size_in_bytes": 113473
+      },
+      {
+        "_path": "site-packages/pymeeus/Pluto.py",
+        "path_type": "hardlink",
+        "sha256": "9a407bf676816845319340110b24b5bd693f350e748b7e3ddb3766985917a3cd",
+        "sha256_in_prefix": "9a407bf676816845319340110b24b5bd693f350e748b7e3ddb3766985917a3cd",
+        "size_in_bytes": 11426
+      },
+      {
+        "_path": "site-packages/pymeeus/Saturn.py",
+        "path_type": "hardlink",
+        "sha256": "ec64f99217d177518539d537bdaa2a8528a7bfe266ea7458b1f23b01fc89c0b9",
+        "sha256_in_prefix": "ec64f99217d177518539d537bdaa2a8528a7bfe266ea7458b1f23b01fc89c0b9",
+        "size_in_bytes": 326172
+      },
+      {
+        "_path": "site-packages/pymeeus/Sun.py",
+        "path_type": "hardlink",
+        "sha256": "1182cedbb12573afe6feb69bfabc7433068e1ba90c1baa73fbd1c885ae1441e1",
+        "sha256_in_prefix": "1182cedbb12573afe6feb69bfabc7433068e1ba90c1baa73fbd1c885ae1441e1",
+        "size_in_bytes": 32652
+      },
+      {
+        "_path": "site-packages/pymeeus/Uranus.py",
+        "path_type": "hardlink",
+        "sha256": "3eeade10a7e9635dc39b8f4e69e99cd79dab91757de0ee77ecf1b2f656da0b42",
+        "sha256_in_prefix": "3eeade10a7e9635dc39b8f4e69e99cd79dab91757de0ee77ecf1b2f656da0b42",
+        "size_in_bytes": 219227
+      },
+      {
+        "_path": "site-packages/pymeeus/Venus.py",
+        "path_type": "hardlink",
+        "sha256": "7d84bf92630cbb2658f3ee3aad259f626be4e497ec085466a7037fff39090c60",
+        "sha256_in_prefix": "7d84bf92630cbb2658f3ee3aad259f626be4e497ec085466a7037fff39090c60",
+        "size_in_bytes": 120629
+      },
+      {
+        "_path": "site-packages/pymeeus/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/pymeeus/base.py",
+        "path_type": "hardlink",
+        "sha256": "46a9693b986e5341aba19fd3f2b63dd475e2ae5ad891bff8a92f5eecd8685fc6",
+        "sha256_in_prefix": "46a9693b986e5341aba19fd3f2b63dd475e2ae5ad891bff8a92f5eecd8685fc6",
+        "size_in_bytes": 4040
+      },
+      {
+        "_path": "Lib/site-packages/pymeeus/__pycache__/Angle.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pymeeus/__pycache__/Coordinates.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pymeeus/__pycache__/CurveFitting.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pymeeus/__pycache__/Earth.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pymeeus/__pycache__/Epoch.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pymeeus/__pycache__/Interpolation.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pymeeus/__pycache__/Jupiter.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pymeeus/__pycache__/JupiterMoons.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pymeeus/__pycache__/Mars.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pymeeus/__pycache__/Mercury.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pymeeus/__pycache__/Minor.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pymeeus/__pycache__/Moon.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pymeeus/__pycache__/Neptune.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pymeeus/__pycache__/Pluto.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pymeeus/__pycache__/Saturn.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pymeeus/__pycache__/Sun.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pymeeus/__pycache__/Uranus.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pymeeus/__pycache__/Venus.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pymeeus/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pymeeus/__pycache__/base.cpython-38.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "f14bcefddb8726d66614c656d2a6d77b65361bb430a905e8d80421d3ae40eb24",
+  "size": 519430,
+  "subdir": "noarch",
+  "timestamp": 1670868547070,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/pymeeus-0.5.12-pyhd8ed1ab_0.conda",
+  "version": "0.5.12"
+}

@@ -1,3 +1,6 @@
+cryptocmd
+statsmodels
+pystan
 pandas
 numpy
 matplotlib

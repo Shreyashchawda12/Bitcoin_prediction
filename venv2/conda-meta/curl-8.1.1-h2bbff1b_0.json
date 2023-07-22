@@ -1,0 +1,47 @@
+{
+  "build": "h2bbff1b_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "libcurl 8.1.1 h86230a5_0",
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012,<15.0a0"
+  ],
+  "extracted_package_dir": "C:\\Users\\shreyash12\\.conda\\pkgs\\curl-8.1.1-h2bbff1b_0",
+  "features": "",
+  "files": [
+    "Library/bin/curl.exe"
+  ],
+  "fn": "curl-8.1.1-h2bbff1b_0.conda",
+  "legacy_bz2_md5": "c087e84e0df9eaef581aa68937dbc686",
+  "license": "curl",
+  "license_family": "MIT",
+  "link": {
+    "source": "C:\\Users\\shreyash12\\.conda\\pkgs\\curl-8.1.1-h2bbff1b_0",
+    "type": 1
+  },
+  "md5": "ceace8d4a69f4d7bcdb74bc638e61a9c",
+  "name": "curl",
+  "package_tarball_full_path": "C:\\Users\\shreyash12\\.conda\\pkgs\\curl-8.1.1-h2bbff1b_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Library/bin/curl.exe",
+        "path_type": "hardlink",
+        "sha256": "890cbd5cebf2ef06f84e1b7219f741fa25046ef92da5dbed3e88d3fa223f168f",
+        "sha256_in_prefix": "890cbd5cebf2ef06f84e1b7219f741fa25046ef92da5dbed3e88d3fa223f168f",
+        "size_in_bytes": 455680
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "cad441862a5d3db7bb5852dd4127e9d885cfb1cc2b7aaa98db1ea8cb614e0e7b",
+  "size": 150840,
+  "subdir": "win-64",
+  "timestamp": 1685433029241,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/curl-8.1.1-h2bbff1b_0.conda",
+  "version": "8.1.1"
+}

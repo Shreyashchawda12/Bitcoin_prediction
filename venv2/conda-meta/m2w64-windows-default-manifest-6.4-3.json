@@ -1,0 +1,43 @@
+{
+  "build": "3",
+  "build_number": 3,
+  "channel": "https://conda.anaconda.org/conda-forge/win-64",
+  "constrains": [],
+  "depends": [
+    "msys2-conda-epoch >=20160418"
+  ],
+  "extracted_package_dir": "C:\\Users\\shreyash12\\.conda\\pkgs\\m2w64-windows-default-manifest-6.4-3",
+  "features": "",
+  "files": [
+    "Library/mingw-w64/x86_64-w64-mingw32/lib/default-manifest.o"
+  ],
+  "fn": "m2w64-windows-default-manifest-6.4-3.tar.bz2",
+  "license": "BSD",
+  "link": {
+    "source": "C:\\Users\\shreyash12\\.conda\\pkgs\\m2w64-windows-default-manifest-6.4-3",
+    "type": 1
+  },
+  "md5": "d11b679f10d4d6ce30a3e519e0cf20f8",
+  "name": "m2w64-windows-default-manifest",
+  "package_tarball_full_path": "C:\\Users\\shreyash12\\.conda\\pkgs\\m2w64-windows-default-manifest-6.4-3.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Library/mingw-w64/x86_64-w64-mingw32/lib/default-manifest.o",
+        "path_type": "hardlink",
+        "sha256": "d2a37dc06a868339fb0e6dcddebfae1656bd7e9e62ea1c70df4458e195ef7783",
+        "sha256_in_prefix": "d2a37dc06a868339fb0e6dcddebfae1656bd7e9e62ea1c70df4458e195ef7783",
+        "size_in_bytes": 1348
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "22cf5083a12e55c9555059d424a69022738a7fe84f03a888afaf53083194daec",
+  "size": 4756,
+  "subdir": "win-64",
+  "timestamp": 1608166821612,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/m2w64-windows-default-manifest-6.4-3.tar.bz2",
+  "version": "6.4"
+}

@@ -1,0 +1,47 @@
+{
+  "build": "7",
+  "build_number": 7,
+  "channel": "https://conda.anaconda.org/conda-forge/win-64",
+  "constrains": [],
+  "depends": [
+    "m2w64-binutils",
+    "m2w64-crt-git",
+    "m2w64-gcc",
+    "m2w64-gcc-ada",
+    "m2w64-gcc-fortran",
+    "m2w64-gcc-libgfortran",
+    "m2w64-gcc-libs",
+    "m2w64-gcc-objc",
+    "m2w64-headers-git",
+    "m2w64-libmangle-git",
+    "m2w64-libwinpthread-git",
+    "m2w64-make",
+    "m2w64-pkg-config",
+    "m2w64-tools-git",
+    "m2w64-winpthreads-git",
+    "msys2-conda-epoch >=20160418"
+  ],
+  "extracted_package_dir": "C:\\Users\\shreyash12\\.conda\\pkgs\\m2w64-toolchain-5.3.0-7",
+  "features": "",
+  "files": [],
+  "fn": "m2w64-toolchain-5.3.0-7.tar.bz2",
+  "link": {
+    "source": "C:\\Users\\shreyash12\\.conda\\pkgs\\m2w64-toolchain-5.3.0-7",
+    "type": 1
+  },
+  "md5": "03df12802fce730797d040e4349b4ea6",
+  "name": "m2w64-toolchain",
+  "package_tarball_full_path": "C:\\Users\\shreyash12\\.conda\\pkgs\\m2w64-toolchain-5.3.0-7.tar.bz2",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "d13aec1b643ed86581e432cd874dabfaccea777dbbcc64ba56223331b3599c9f",
+  "size": 3423,
+  "subdir": "win-64",
+  "timestamp": 1608166774007,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/m2w64-toolchain-5.3.0-7.tar.bz2",
+  "version": "5.3.0"
+}

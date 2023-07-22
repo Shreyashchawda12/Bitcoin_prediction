@@ -4,6 +4,9 @@ import pandas as pd
 from sklearn.linear_model import LogisticRegression
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import RandomForestClassifier
+from sklearn.ensemble import AdaBoostClassifier
+from sklearn.ensemble import GradientBoostingClassifier
+from sklearn.svm import SVC
 from src.Exception import customException
 from src.logger import logging
 
@@ -38,7 +41,10 @@ class ModelTrainer:
             models={
                 'LogisticRegression':LogisticRegression(),
                 'DecisionTree':DecisionTreeClassifier(),
-                'RandomForest':RandomForestClassifier()
+                'RandomForest':RandomForestClassifier(),
+                'Adaboost':AdaBoostClassifier(),
+                'GradientBoosting':GradientBoostingClassifier(),
+                'SVC':SVC()
         }
             model_report:dict=evaluate_model(X_train,y_train,X_test,y_test,models)
             print(model_report)

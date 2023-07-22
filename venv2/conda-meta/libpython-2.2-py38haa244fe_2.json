@@ -1,0 +1,86 @@
+{
+  "build": "py38haa244fe_2",
+  "build_number": 2,
+  "channel": "https://conda.anaconda.org/conda-forge/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.8,<3.9.0a0",
+    "python_abi 3.8.* *_cp38",
+    "setuptools"
+  ],
+  "extracted_package_dir": "C:\\Users\\shreyash12\\.conda\\pkgs\\libpython-2.2-py38haa244fe_2",
+  "features": "",
+  "files": [
+    "Lib/distutils/distutils.cfg",
+    "Lib/site-packages/setuptools/_distutils/distutils.cfg",
+    "libs/libmsvcr140.dll.a",
+    "libs/libpython38.dll.a",
+    "libs/libucrt.dll.a",
+    "libs/libvcruntime140.dll.a"
+  ],
+  "fn": "libpython-2.2-py38haa244fe_2.tar.bz2",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "C:\\Users\\shreyash12\\.conda\\pkgs\\libpython-2.2-py38haa244fe_2",
+    "type": 1
+  },
+  "md5": "c161aff58bef8a6d000141e6bd987cd4",
+  "name": "libpython",
+  "package_tarball_full_path": "C:\\Users\\shreyash12\\.conda\\pkgs\\libpython-2.2-py38haa244fe_2.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Lib/distutils/distutils.cfg",
+        "path_type": "hardlink",
+        "sha256": "d928a7bafd7589bd7885b426c21645c09480946f7d97092b5285e9fd7d9152a4",
+        "sha256_in_prefix": "d928a7bafd7589bd7885b426c21645c09480946f7d97092b5285e9fd7d9152a4",
+        "size_in_bytes": 70
+      },
+      {
+        "_path": "Lib/site-packages/setuptools/_distutils/distutils.cfg",
+        "path_type": "hardlink",
+        "sha256": "d928a7bafd7589bd7885b426c21645c09480946f7d97092b5285e9fd7d9152a4",
+        "sha256_in_prefix": "d928a7bafd7589bd7885b426c21645c09480946f7d97092b5285e9fd7d9152a4",
+        "size_in_bytes": 70
+      },
+      {
+        "_path": "libs/libmsvcr140.dll.a",
+        "path_type": "hardlink",
+        "sha256": "f0a17a43c74d2fe5474fa2fd29c8f14799e777d7d75a2cc4d11c20a6e7b161c5",
+        "sha256_in_prefix": "f0a17a43c74d2fe5474fa2fd29c8f14799e777d7d75a2cc4d11c20a6e7b161c5",
+        "size_in_bytes": 8
+      },
+      {
+        "_path": "libs/libpython38.dll.a",
+        "path_type": "hardlink",
+        "sha256": "e8c8c3e170b3178f15cbc0828e2b50ef08e322d56d5bfdcc798f502e74280f5d",
+        "sha256_in_prefix": "e8c8c3e170b3178f15cbc0828e2b50ef08e322d56d5bfdcc798f502e74280f5d",
+        "size_in_bytes": 1287684
+      },
+      {
+        "_path": "libs/libucrt.dll.a",
+        "path_type": "hardlink",
+        "sha256": "f0a17a43c74d2fe5474fa2fd29c8f14799e777d7d75a2cc4d11c20a6e7b161c5",
+        "sha256_in_prefix": "f0a17a43c74d2fe5474fa2fd29c8f14799e777d7d75a2cc4d11c20a6e7b161c5",
+        "size_in_bytes": 8
+      },
+      {
+        "_path": "libs/libvcruntime140.dll.a",
+        "path_type": "hardlink",
+        "sha256": "f0a17a43c74d2fe5474fa2fd29c8f14799e777d7d75a2cc4d11c20a6e7b161c5",
+        "sha256_in_prefix": "f0a17a43c74d2fe5474fa2fd29c8f14799e777d7d75a2cc4d11c20a6e7b161c5",
+        "size_in_bytes": 8
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "4f512b43fce08f2202ec2599f153489f18ec069fcde31f9f0e0ae6e4737ffeab",
+  "size": 52861,
+  "subdir": "win-64",
+  "timestamp": 1666850078837,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/libpython-2.2-py38haa244fe_2.tar.bz2",
+  "version": "2.2"
+}

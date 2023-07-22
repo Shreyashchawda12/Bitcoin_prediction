@@ -1,0 +1,429 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "pymeeus <=1,>=0.3.6",
+    "python >=3.5",
+    "pytz >=2014.10"
+  ],
+  "extracted_package_dir": "C:\\Users\\shreyash12\\.conda\\pkgs\\convertdate-2.4.0-pyhd8ed1ab_0",
+  "features": "",
+  "files": [
+    "Scripts/censusgeocode",
+    "Lib/site-packages/convertdate-2.4.0.dist-info/INSTALLER",
+    "Lib/site-packages/convertdate-2.4.0.dist-info/LICENSE",
+    "Lib/site-packages/convertdate-2.4.0.dist-info/METADATA",
+    "Lib/site-packages/convertdate-2.4.0.dist-info/RECORD",
+    "Lib/site-packages/convertdate-2.4.0.dist-info/REQUESTED",
+    "Lib/site-packages/convertdate-2.4.0.dist-info/WHEEL",
+    "Lib/site-packages/convertdate-2.4.0.dist-info/direct_url.json",
+    "Lib/site-packages/convertdate-2.4.0.dist-info/entry_points.txt",
+    "Lib/site-packages/convertdate-2.4.0.dist-info/top_level.txt",
+    "Lib/site-packages/convertdate-2.4.0.dist-info/zip-safe",
+    "Lib/site-packages/convertdate/__init__.py",
+    "Lib/site-packages/convertdate/armenian.py",
+    "Lib/site-packages/convertdate/bahai.py",
+    "Lib/site-packages/convertdate/coptic.py",
+    "Lib/site-packages/convertdate/data/__init__.py",
+    "Lib/site-packages/convertdate/data/french_republican_days.py",
+    "Lib/site-packages/convertdate/data/positivist.py",
+    "Lib/site-packages/convertdate/daycount.py",
+    "Lib/site-packages/convertdate/dublin.py",
+    "Lib/site-packages/convertdate/french_republican.py",
+    "Lib/site-packages/convertdate/gregorian.py",
+    "Lib/site-packages/convertdate/hebrew.py",
+    "Lib/site-packages/convertdate/holidays.py",
+    "Lib/site-packages/convertdate/indian_civil.py",
+    "Lib/site-packages/convertdate/islamic.py",
+    "Lib/site-packages/convertdate/iso.py",
+    "Lib/site-packages/convertdate/julian.py",
+    "Lib/site-packages/convertdate/julianday.py",
+    "Lib/site-packages/convertdate/mayan.py",
+    "Lib/site-packages/convertdate/ordinal.py",
+    "Lib/site-packages/convertdate/persian.py",
+    "Lib/site-packages/convertdate/positivist.py",
+    "Lib/site-packages/convertdate/utils.py",
+    "Lib/site-packages/convertdate/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/convertdate/__pycache__/armenian.cpython-38.pyc",
+    "Lib/site-packages/convertdate/__pycache__/bahai.cpython-38.pyc",
+    "Lib/site-packages/convertdate/__pycache__/coptic.cpython-38.pyc",
+    "Lib/site-packages/convertdate/data/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/convertdate/data/__pycache__/french_republican_days.cpython-38.pyc",
+    "Lib/site-packages/convertdate/data/__pycache__/positivist.cpython-38.pyc",
+    "Lib/site-packages/convertdate/__pycache__/daycount.cpython-38.pyc",
+    "Lib/site-packages/convertdate/__pycache__/dublin.cpython-38.pyc",
+    "Lib/site-packages/convertdate/__pycache__/french_republican.cpython-38.pyc",
+    "Lib/site-packages/convertdate/__pycache__/gregorian.cpython-38.pyc",
+    "Lib/site-packages/convertdate/__pycache__/hebrew.cpython-38.pyc",
+    "Lib/site-packages/convertdate/__pycache__/holidays.cpython-38.pyc",
+    "Lib/site-packages/convertdate/__pycache__/indian_civil.cpython-38.pyc",
+    "Lib/site-packages/convertdate/__pycache__/islamic.cpython-38.pyc",
+    "Lib/site-packages/convertdate/__pycache__/iso.cpython-38.pyc",
+    "Lib/site-packages/convertdate/__pycache__/julian.cpython-38.pyc",
+    "Lib/site-packages/convertdate/__pycache__/julianday.cpython-38.pyc",
+    "Lib/site-packages/convertdate/__pycache__/mayan.cpython-38.pyc",
+    "Lib/site-packages/convertdate/__pycache__/ordinal.cpython-38.pyc",
+    "Lib/site-packages/convertdate/__pycache__/persian.cpython-38.pyc",
+    "Lib/site-packages/convertdate/__pycache__/positivist.cpython-38.pyc",
+    "Lib/site-packages/convertdate/__pycache__/utils.cpython-38.pyc"
+  ],
+  "fn": "convertdate-2.4.0-pyhd8ed1ab_0.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "C:\\Users\\shreyash12\\.conda\\pkgs\\convertdate-2.4.0-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "1f0f49ac9977393b07de93002db5ad5c",
+  "name": "convertdate",
+  "noarch": "python",
+  "package_tarball_full_path": "C:\\Users\\shreyash12\\.conda\\pkgs\\convertdate-2.4.0-pyhd8ed1ab_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "python-scripts/censusgeocode",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/convertdate_1642883757836/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold",
+        "sha256": "12bf31c117495fc0643fd8c5dfbe795f5b31a5e85c81d6765843e545c4b288ae",
+        "sha256_in_prefix": "1fad429d958835c7aacd3ca74d7cdbac9475259a67c839f1e610c563fa3060f0",
+        "size_in_bytes": 504
+      },
+      {
+        "_path": "site-packages/convertdate-2.4.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/convertdate-2.4.0.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "179bdaad0146c3ed0acb240687e2717133ca3c03f9b60ca67ff85e32d452212a",
+        "sha256_in_prefix": "179bdaad0146c3ed0acb240687e2717133ca3c03f9b60ca67ff85e32d452212a",
+        "size_in_bytes": 1085
+      },
+      {
+        "_path": "site-packages/convertdate-2.4.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "3cb1c4464459be6fba2f09b5875ea89d2b38a119c7aef96fc3e8bbfd90dcbcfe",
+        "sha256_in_prefix": "3cb1c4464459be6fba2f09b5875ea89d2b38a119c7aef96fc3e8bbfd90dcbcfe",
+        "size_in_bytes": 8349
+      },
+      {
+        "_path": "site-packages/convertdate-2.4.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "bd29debb4823f7511d3187ca17ddf4dfff78be9ff83e2b946670c76924842f9c",
+        "sha256_in_prefix": "bd29debb4823f7511d3187ca17ddf4dfff78be9ff83e2b946670c76924842f9c",
+        "size_in_bytes": 4073
+      },
+      {
+        "_path": "site-packages/convertdate-2.4.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/convertdate-2.4.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "1b5e87e00dc87a84269cead8578b9e6462928e18a95f1f3373c9eef451a5bcc0",
+        "sha256_in_prefix": "1b5e87e00dc87a84269cead8578b9e6462928e18a95f1f3373c9eef451a5bcc0",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/convertdate-2.4.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "8e6554915a80f47afd3bce851227794b2e578fd6eeb62b09e383f03d0640067d",
+        "sha256_in_prefix": "8e6554915a80f47afd3bce851227794b2e578fd6eeb62b09e383f03d0640067d",
+        "size_in_bytes": 107
+      },
+      {
+        "_path": "site-packages/convertdate-2.4.0.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "bbc48f23b925c44a242b62c26de044aa7e9393620eccc57071b9efaeb00c9bab",
+        "sha256_in_prefix": "bbc48f23b925c44a242b62c26de044aa7e9393620eccc57071b9efaeb00c9bab",
+        "size_in_bytes": 63
+      },
+      {
+        "_path": "site-packages/convertdate-2.4.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "c80d7aec0e25687a2b4b676a9136ad27196f924206b40100b9513c208049b52d",
+        "sha256_in_prefix": "c80d7aec0e25687a2b4b676a9136ad27196f924206b40100b9513c208049b52d",
+        "size_in_bytes": 12
+      },
+      {
+        "_path": "site-packages/convertdate-2.4.0.dist-info/zip-safe",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "site-packages/convertdate/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "6a595bcbce7747af442b46e0253b79321a97e14b16b349dcca668aefee0629f2",
+        "sha256_in_prefix": "6a595bcbce7747af442b46e0253b79321a97e14b16b349dcca668aefee0629f2",
+        "size_in_bytes": 1608
+      },
+      {
+        "_path": "site-packages/convertdate/armenian.py",
+        "path_type": "hardlink",
+        "sha256": "9656af80fa6147c8d1c185ce2aeed353ba19da75c3ddb324a34b58f034ffb9f6",
+        "sha256_in_prefix": "9656af80fa6147c8d1c185ce2aeed353ba19da75c3ddb324a34b58f034ffb9f6",
+        "size_in_bytes": 5635
+      },
+      {
+        "_path": "site-packages/convertdate/bahai.py",
+        "path_type": "hardlink",
+        "sha256": "c903572a7738fe598c754aaaf0fd6ac71aa0619634b101556e02628949dbb43e",
+        "sha256_in_prefix": "c903572a7738fe598c754aaaf0fd6ac71aa0619634b101556e02628949dbb43e",
+        "size_in_bytes": 5017
+      },
+      {
+        "_path": "site-packages/convertdate/coptic.py",
+        "path_type": "hardlink",
+        "sha256": "25522026165446d04e3af23ba1a4f90e149b483a4edcc14582642baac99d3f8f",
+        "sha256_in_prefix": "25522026165446d04e3af23ba1a4f90e149b483a4edcc14582642baac99d3f8f",
+        "size_in_bytes": 2365
+      },
+      {
+        "_path": "site-packages/convertdate/data/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/convertdate/data/french_republican_days.py",
+        "path_type": "hardlink",
+        "sha256": "b425190cb51997db46d91ac24fa5573099bc2e9ad9ff0ecee96a6f9b175e1ba3",
+        "sha256_in_prefix": "b425190cb51997db46d91ac24fa5573099bc2e9ad9ff0ecee96a6f9b175e1ba3",
+        "size_in_bytes": 7648
+      },
+      {
+        "_path": "site-packages/convertdate/data/positivist.py",
+        "path_type": "hardlink",
+        "sha256": "1008b71b7ce4d8f910dbb5ac075a100d6f7f9ff145a0b41496c49a1a8fb87df2",
+        "sha256_in_prefix": "1008b71b7ce4d8f910dbb5ac075a100d6f7f9ff145a0b41496c49a1a8fb87df2",
+        "size_in_bytes": 12437
+      },
+      {
+        "_path": "site-packages/convertdate/daycount.py",
+        "path_type": "hardlink",
+        "sha256": "4a27c7e2fd2c0a95187364fd3b535ea622d1671bee08da55fbfbf7a3d1880b32",
+        "sha256_in_prefix": "4a27c7e2fd2c0a95187364fd3b535ea622d1671bee08da55fbfbf7a3d1880b32",
+        "size_in_bytes": 1231
+      },
+      {
+        "_path": "site-packages/convertdate/dublin.py",
+        "path_type": "hardlink",
+        "sha256": "e79f1f026263a9e0de4cef7ae4131a1cffbdf392d08a1b2af9c2481e52d3dd9a",
+        "sha256_in_prefix": "e79f1f026263a9e0de4cef7ae4131a1cffbdf392d08a1b2af9c2481e52d3dd9a",
+        "size_in_bytes": 804
+      },
+      {
+        "_path": "site-packages/convertdate/french_republican.py",
+        "path_type": "hardlink",
+        "sha256": "c7e07c1bca3c55ce110f83eea331a845707897444af7a42a393cc9b24598f6ba",
+        "sha256_in_prefix": "c7e07c1bca3c55ce110f83eea331a845707897444af7a42a393cc9b24598f6ba",
+        "size_in_bytes": 11346
+      },
+      {
+        "_path": "site-packages/convertdate/gregorian.py",
+        "path_type": "hardlink",
+        "sha256": "5d64d4f49fc4136226de04f6e743989aaaad05d86ba90fb7a7d8d16417a343f4",
+        "sha256_in_prefix": "5d64d4f49fc4136226de04f6e743989aaaad05d86ba90fb7a7d8d16417a343f4",
+        "size_in_bytes": 4349
+      },
+      {
+        "_path": "site-packages/convertdate/hebrew.py",
+        "path_type": "hardlink",
+        "sha256": "942ac5b37275fc083dc496e23c4956dae4bcf93b70c941afe41a80138db38db2",
+        "sha256_in_prefix": "942ac5b37275fc083dc496e23c4956dae4bcf93b70c941afe41a80138db38db2",
+        "size_in_bytes": 5370
+      },
+      {
+        "_path": "site-packages/convertdate/holidays.py",
+        "path_type": "hardlink",
+        "sha256": "a41e4a1e52bf094413fb3a95ff391be715a9a2c2bb6276ff97303aa357ec4e93",
+        "sha256_in_prefix": "a41e4a1e52bf094413fb3a95ff391be715a9a2c2bb6276ff97303aa357ec4e93",
+        "size_in_bytes": 15640
+      },
+      {
+        "_path": "site-packages/convertdate/indian_civil.py",
+        "path_type": "hardlink",
+        "sha256": "a552ddac630ff4414d1251c8e1b4b5dee1ac445bff6c50f28dea9da7f344d16e",
+        "sha256_in_prefix": "a552ddac630ff4414d1251c8e1b4b5dee1ac445bff6c50f28dea9da7f344d16e",
+        "size_in_bytes": 3499
+      },
+      {
+        "_path": "site-packages/convertdate/islamic.py",
+        "path_type": "hardlink",
+        "sha256": "fa3af3f90a65ce5a85837893755f8911605b6bd4185783b029cd57a5c989577a",
+        "sha256_in_prefix": "fa3af3f90a65ce5a85837893755f8911605b6bd4185783b029cd57a5c989577a",
+        "size_in_bytes": 2643
+      },
+      {
+        "_path": "site-packages/convertdate/iso.py",
+        "path_type": "hardlink",
+        "sha256": "e0275328f1b3c3f59236b28d17cfc18a8336d2c0aff117bfbde1384d50c3ac9c",
+        "sha256_in_prefix": "e0275328f1b3c3f59236b28d17cfc18a8336d2c0aff117bfbde1384d50c3ac9c",
+        "size_in_bytes": 1376
+      },
+      {
+        "_path": "site-packages/convertdate/julian.py",
+        "path_type": "hardlink",
+        "sha256": "7d80a2e7d892d2227f19b525e925c639b35eb0cefffdc411c667b9a38c2f1897",
+        "sha256_in_prefix": "7d80a2e7d892d2227f19b525e925c639b35eb0cefffdc411c667b9a38c2f1897",
+        "size_in_bytes": 3933
+      },
+      {
+        "_path": "site-packages/convertdate/julianday.py",
+        "path_type": "hardlink",
+        "sha256": "46eb3e618a0e5932acfe32b3861a95f9c354c19e9bd85d49943ae1c9902bbd0a",
+        "sha256_in_prefix": "46eb3e618a0e5932acfe32b3861a95f9c354c19e9bd85d49943ae1c9902bbd0a",
+        "size_in_bytes": 2272
+      },
+      {
+        "_path": "site-packages/convertdate/mayan.py",
+        "path_type": "hardlink",
+        "sha256": "e3f045adc2a726c71881f3df19d2f97ab6d9ae85055d3003bc3106054636201c",
+        "sha256_in_prefix": "e3f045adc2a726c71881f3df19d2f97ab6d9ae85055d3003bc3106054636201c",
+        "size_in_bytes": 9054
+      },
+      {
+        "_path": "site-packages/convertdate/ordinal.py",
+        "path_type": "hardlink",
+        "sha256": "3c04d47b0079e051cdf2851fe8b7e343d928a4495c8a60e6b7dbb4950d693b80",
+        "sha256_in_prefix": "3c04d47b0079e051cdf2851fe8b7e343d928a4495c8a60e6b7dbb4950d693b80",
+        "size_in_bytes": 1514
+      },
+      {
+        "_path": "site-packages/convertdate/persian.py",
+        "path_type": "hardlink",
+        "sha256": "95cc9fd9a657d85756b29f07845f62f80b7fbfbd787b98c426a4d1814cde4bf4",
+        "sha256_in_prefix": "95cc9fd9a657d85756b29f07845f62f80b7fbfbd787b98c426a4d1814cde4bf4",
+        "size_in_bytes": 4088
+      },
+      {
+        "_path": "site-packages/convertdate/positivist.py",
+        "path_type": "hardlink",
+        "sha256": "60c3c533530bb29fcad3b7d0714bc06f5385fef59e342db0fb0eeadeb5c0fc1d",
+        "sha256_in_prefix": "60c3c533530bb29fcad3b7d0714bc06f5385fef59e342db0fb0eeadeb5c0fc1d",
+        "size_in_bytes": 4043
+      },
+      {
+        "_path": "site-packages/convertdate/utils.py",
+        "path_type": "hardlink",
+        "sha256": "3512785e2d4cfd955874c1a2f4514097a906bc5517af2f2d09493e15880b6e16",
+        "sha256_in_prefix": "3512785e2d4cfd955874c1a2f4514097a906bc5517af2f2d09493e15880b6e16",
+        "size_in_bytes": 3113
+      },
+      {
+        "_path": "Lib/site-packages/convertdate/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/convertdate/__pycache__/armenian.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/convertdate/__pycache__/bahai.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/convertdate/__pycache__/coptic.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/convertdate/data/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/convertdate/data/__pycache__/french_republican_days.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/convertdate/data/__pycache__/positivist.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/convertdate/__pycache__/daycount.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/convertdate/__pycache__/dublin.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/convertdate/__pycache__/french_republican.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/convertdate/__pycache__/gregorian.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/convertdate/__pycache__/hebrew.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/convertdate/__pycache__/holidays.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/convertdate/__pycache__/indian_civil.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/convertdate/__pycache__/islamic.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/convertdate/__pycache__/iso.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/convertdate/__pycache__/julian.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/convertdate/__pycache__/julianday.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/convertdate/__pycache__/mayan.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/convertdate/__pycache__/ordinal.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/convertdate/__pycache__/persian.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/convertdate/__pycache__/positivist.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/convertdate/__pycache__/utils.cpython-38.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "20dbfeb297d47b5c861abc2b77d91e29a409c6801d7487a2fa2665279d28ba5b",
+  "size": 38900,
+  "subdir": "noarch",
+  "timestamp": 1642883837912,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/convertdate-2.4.0-pyhd8ed1ab_0.tar.bz2",
+  "version": "2.4.0"
+}

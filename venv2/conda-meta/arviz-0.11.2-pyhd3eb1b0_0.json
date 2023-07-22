@@ -1,0 +1,2004 @@
+{
+  "build": "pyhd3eb1b0_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "matplotlib-base >=3.0",
+    "netcdf4",
+    "numpy",
+    "packaging",
+    "pandas",
+    "python >=3",
+    "scipy",
+    "xarray"
+  ],
+  "extracted_package_dir": "C:\\Users\\shreyash12\\.conda\\pkgs\\arviz-0.11.2-pyhd3eb1b0_0",
+  "features": "",
+  "files": [
+    "Lib/site-packages/arviz-0.11.2.dist-info/INSTALLER",
+    "Lib/site-packages/arviz-0.11.2.dist-info/LICENSE",
+    "Lib/site-packages/arviz-0.11.2.dist-info/METADATA",
+    "Lib/site-packages/arviz-0.11.2.dist-info/RECORD",
+    "Lib/site-packages/arviz-0.11.2.dist-info/REQUESTED",
+    "Lib/site-packages/arviz-0.11.2.dist-info/WHEEL",
+    "Lib/site-packages/arviz-0.11.2.dist-info/direct_url.json",
+    "Lib/site-packages/arviz-0.11.2.dist-info/top_level.txt",
+    "Lib/site-packages/arviz/__init__.py",
+    "Lib/site-packages/arviz/data/__init__.py",
+    "Lib/site-packages/arviz/data/_datasets/centered_eight.nc",
+    "Lib/site-packages/arviz/data/_datasets/non_centered_eight.nc",
+    "Lib/site-packages/arviz/data/base.py",
+    "Lib/site-packages/arviz/data/converters.py",
+    "Lib/site-packages/arviz/data/datasets.py",
+    "Lib/site-packages/arviz/data/inference_data.py",
+    "Lib/site-packages/arviz/data/io_cmdstan.py",
+    "Lib/site-packages/arviz/data/io_cmdstanpy.py",
+    "Lib/site-packages/arviz/data/io_dict.py",
+    "Lib/site-packages/arviz/data/io_emcee.py",
+    "Lib/site-packages/arviz/data/io_json.py",
+    "Lib/site-packages/arviz/data/io_netcdf.py",
+    "Lib/site-packages/arviz/data/io_numpyro.py",
+    "Lib/site-packages/arviz/data/io_pyjags.py",
+    "Lib/site-packages/arviz/data/io_pymc3.py",
+    "Lib/site-packages/arviz/data/io_pyro.py",
+    "Lib/site-packages/arviz/data/io_pystan.py",
+    "Lib/site-packages/arviz/data/io_tfp.py",
+    "Lib/site-packages/arviz/plots/__init__.py",
+    "Lib/site-packages/arviz/plots/autocorrplot.py",
+    "Lib/site-packages/arviz/plots/backends/__init__.py",
+    "Lib/site-packages/arviz/plots/backends/bokeh/__init__.py",
+    "Lib/site-packages/arviz/plots/backends/bokeh/autocorrplot.py",
+    "Lib/site-packages/arviz/plots/backends/bokeh/bpvplot.py",
+    "Lib/site-packages/arviz/plots/backends/bokeh/compareplot.py",
+    "Lib/site-packages/arviz/plots/backends/bokeh/densityplot.py",
+    "Lib/site-packages/arviz/plots/backends/bokeh/distcomparisonplot.py",
+    "Lib/site-packages/arviz/plots/backends/bokeh/distplot.py",
+    "Lib/site-packages/arviz/plots/backends/bokeh/elpdplot.py",
+    "Lib/site-packages/arviz/plots/backends/bokeh/energyplot.py",
+    "Lib/site-packages/arviz/plots/backends/bokeh/essplot.py",
+    "Lib/site-packages/arviz/plots/backends/bokeh/forestplot.py",
+    "Lib/site-packages/arviz/plots/backends/bokeh/hdiplot.py",
+    "Lib/site-packages/arviz/plots/backends/bokeh/jointplot.py",
+    "Lib/site-packages/arviz/plots/backends/bokeh/kdeplot.py",
+    "Lib/site-packages/arviz/plots/backends/bokeh/khatplot.py",
+    "Lib/site-packages/arviz/plots/backends/bokeh/loopitplot.py",
+    "Lib/site-packages/arviz/plots/backends/bokeh/mcseplot.py",
+    "Lib/site-packages/arviz/plots/backends/bokeh/pairplot.py",
+    "Lib/site-packages/arviz/plots/backends/bokeh/parallelplot.py",
+    "Lib/site-packages/arviz/plots/backends/bokeh/posteriorplot.py",
+    "Lib/site-packages/arviz/plots/backends/bokeh/ppcplot.py",
+    "Lib/site-packages/arviz/plots/backends/bokeh/rankplot.py",
+    "Lib/site-packages/arviz/plots/backends/bokeh/separationplot.py",
+    "Lib/site-packages/arviz/plots/backends/bokeh/traceplot.py",
+    "Lib/site-packages/arviz/plots/backends/bokeh/violinplot.py",
+    "Lib/site-packages/arviz/plots/backends/matplotlib/__init__.py",
+    "Lib/site-packages/arviz/plots/backends/matplotlib/autocorrplot.py",
+    "Lib/site-packages/arviz/plots/backends/matplotlib/bpvplot.py",
+    "Lib/site-packages/arviz/plots/backends/matplotlib/compareplot.py",
+    "Lib/site-packages/arviz/plots/backends/matplotlib/densityplot.py",
+    "Lib/site-packages/arviz/plots/backends/matplotlib/distcomparisonplot.py",
+    "Lib/site-packages/arviz/plots/backends/matplotlib/distplot.py",
+    "Lib/site-packages/arviz/plots/backends/matplotlib/elpdplot.py",
+    "Lib/site-packages/arviz/plots/backends/matplotlib/energyplot.py",
+    "Lib/site-packages/arviz/plots/backends/matplotlib/essplot.py",
+    "Lib/site-packages/arviz/plots/backends/matplotlib/forestplot.py",
+    "Lib/site-packages/arviz/plots/backends/matplotlib/hdiplot.py",
+    "Lib/site-packages/arviz/plots/backends/matplotlib/jointplot.py",
+    "Lib/site-packages/arviz/plots/backends/matplotlib/kdeplot.py",
+    "Lib/site-packages/arviz/plots/backends/matplotlib/khatplot.py",
+    "Lib/site-packages/arviz/plots/backends/matplotlib/loopitplot.py",
+    "Lib/site-packages/arviz/plots/backends/matplotlib/mcseplot.py",
+    "Lib/site-packages/arviz/plots/backends/matplotlib/pairplot.py",
+    "Lib/site-packages/arviz/plots/backends/matplotlib/parallelplot.py",
+    "Lib/site-packages/arviz/plots/backends/matplotlib/posteriorplot.py",
+    "Lib/site-packages/arviz/plots/backends/matplotlib/ppcplot.py",
+    "Lib/site-packages/arviz/plots/backends/matplotlib/rankplot.py",
+    "Lib/site-packages/arviz/plots/backends/matplotlib/separationplot.py",
+    "Lib/site-packages/arviz/plots/backends/matplotlib/traceplot.py",
+    "Lib/site-packages/arviz/plots/backends/matplotlib/violinplot.py",
+    "Lib/site-packages/arviz/plots/bpvplot.py",
+    "Lib/site-packages/arviz/plots/compareplot.py",
+    "Lib/site-packages/arviz/plots/densityplot.py",
+    "Lib/site-packages/arviz/plots/distcomparisonplot.py",
+    "Lib/site-packages/arviz/plots/distplot.py",
+    "Lib/site-packages/arviz/plots/elpdplot.py",
+    "Lib/site-packages/arviz/plots/energyplot.py",
+    "Lib/site-packages/arviz/plots/essplot.py",
+    "Lib/site-packages/arviz/plots/forestplot.py",
+    "Lib/site-packages/arviz/plots/hdiplot.py",
+    "Lib/site-packages/arviz/plots/jointplot.py",
+    "Lib/site-packages/arviz/plots/kdeplot.py",
+    "Lib/site-packages/arviz/plots/khatplot.py",
+    "Lib/site-packages/arviz/plots/loopitplot.py",
+    "Lib/site-packages/arviz/plots/mcseplot.py",
+    "Lib/site-packages/arviz/plots/pairplot.py",
+    "Lib/site-packages/arviz/plots/parallelplot.py",
+    "Lib/site-packages/arviz/plots/plot_utils.py",
+    "Lib/site-packages/arviz/plots/posteriorplot.py",
+    "Lib/site-packages/arviz/plots/ppcplot.py",
+    "Lib/site-packages/arviz/plots/rankplot.py",
+    "Lib/site-packages/arviz/plots/separationplot.py",
+    "Lib/site-packages/arviz/plots/styles/arviz-bluish.mplstyle",
+    "Lib/site-packages/arviz/plots/styles/arviz-brownish.mplstyle",
+    "Lib/site-packages/arviz/plots/styles/arviz-colors.mplstyle",
+    "Lib/site-packages/arviz/plots/styles/arviz-cyanish.mplstyle",
+    "Lib/site-packages/arviz/plots/styles/arviz-darkgrid.mplstyle",
+    "Lib/site-packages/arviz/plots/styles/arviz-grayscale.mplstyle",
+    "Lib/site-packages/arviz/plots/styles/arviz-greenish.mplstyle",
+    "Lib/site-packages/arviz/plots/styles/arviz-orangish.mplstyle",
+    "Lib/site-packages/arviz/plots/styles/arviz-plasmish.mplstyle",
+    "Lib/site-packages/arviz/plots/styles/arviz-purplish.mplstyle",
+    "Lib/site-packages/arviz/plots/styles/arviz-redish.mplstyle",
+    "Lib/site-packages/arviz/plots/styles/arviz-royish.mplstyle",
+    "Lib/site-packages/arviz/plots/styles/arviz-viridish.mplstyle",
+    "Lib/site-packages/arviz/plots/styles/arviz-white.mplstyle",
+    "Lib/site-packages/arviz/plots/styles/arviz-whitegrid.mplstyle",
+    "Lib/site-packages/arviz/plots/traceplot.py",
+    "Lib/site-packages/arviz/plots/violinplot.py",
+    "Lib/site-packages/arviz/rcparams.py",
+    "Lib/site-packages/arviz/static/css/style.css",
+    "Lib/site-packages/arviz/static/html/icons-svg-inline.html",
+    "Lib/site-packages/arviz/stats/__init__.py",
+    "Lib/site-packages/arviz/stats/density_utils.py",
+    "Lib/site-packages/arviz/stats/diagnostics.py",
+    "Lib/site-packages/arviz/stats/stats.py",
+    "Lib/site-packages/arviz/stats/stats_refitting.py",
+    "Lib/site-packages/arviz/stats/stats_utils.py",
+    "Lib/site-packages/arviz/tests/__init__.py",
+    "Lib/site-packages/arviz/tests/base_tests/__init__.py",
+    "Lib/site-packages/arviz/tests/base_tests/test_data.py",
+    "Lib/site-packages/arviz/tests/base_tests/test_data_zarr.py",
+    "Lib/site-packages/arviz/tests/base_tests/test_diagnostics.py",
+    "Lib/site-packages/arviz/tests/base_tests/test_diagnostics_numba.py",
+    "Lib/site-packages/arviz/tests/base_tests/test_helpers.py",
+    "Lib/site-packages/arviz/tests/base_tests/test_plot_utils.py",
+    "Lib/site-packages/arviz/tests/base_tests/test_plots_bokeh.py",
+    "Lib/site-packages/arviz/tests/base_tests/test_plots_matplotlib.py",
+    "Lib/site-packages/arviz/tests/base_tests/test_rcparams.py",
+    "Lib/site-packages/arviz/tests/base_tests/test_stats.py",
+    "Lib/site-packages/arviz/tests/base_tests/test_stats_numba.py",
+    "Lib/site-packages/arviz/tests/base_tests/test_stats_utils.py",
+    "Lib/site-packages/arviz/tests/base_tests/test_utils.py",
+    "Lib/site-packages/arviz/tests/base_tests/test_utils_numba.py",
+    "Lib/site-packages/arviz/tests/conftest.py",
+    "Lib/site-packages/arviz/tests/external_tests/__init__.py",
+    "Lib/site-packages/arviz/tests/external_tests/test_data_cmdstan.py",
+    "Lib/site-packages/arviz/tests/external_tests/test_data_cmdstanpy.py",
+    "Lib/site-packages/arviz/tests/external_tests/test_data_emcee.py",
+    "Lib/site-packages/arviz/tests/external_tests/test_data_numpyro.py",
+    "Lib/site-packages/arviz/tests/external_tests/test_data_pyjags.py",
+    "Lib/site-packages/arviz/tests/external_tests/test_data_pymc.py",
+    "Lib/site-packages/arviz/tests/external_tests/test_data_pyro.py",
+    "Lib/site-packages/arviz/tests/external_tests/test_data_pystan.py",
+    "Lib/site-packages/arviz/tests/external_tests/test_data_tfp.py",
+    "Lib/site-packages/arviz/tests/helpers.py",
+    "Lib/site-packages/arviz/utils.py",
+    "Lib/site-packages/arviz/wrappers/__init__.py",
+    "Lib/site-packages/arviz/wrappers/base.py",
+    "Lib/site-packages/arviz/wrappers/wrap_pystan.py",
+    "Lib/site-packages/arviz/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/arviz/data/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/arviz/data/__pycache__/base.cpython-38.pyc",
+    "Lib/site-packages/arviz/data/__pycache__/converters.cpython-38.pyc",
+    "Lib/site-packages/arviz/data/__pycache__/datasets.cpython-38.pyc",
+    "Lib/site-packages/arviz/data/__pycache__/inference_data.cpython-38.pyc",
+    "Lib/site-packages/arviz/data/__pycache__/io_cmdstan.cpython-38.pyc",
+    "Lib/site-packages/arviz/data/__pycache__/io_cmdstanpy.cpython-38.pyc",
+    "Lib/site-packages/arviz/data/__pycache__/io_dict.cpython-38.pyc",
+    "Lib/site-packages/arviz/data/__pycache__/io_emcee.cpython-38.pyc",
+    "Lib/site-packages/arviz/data/__pycache__/io_json.cpython-38.pyc",
+    "Lib/site-packages/arviz/data/__pycache__/io_netcdf.cpython-38.pyc",
+    "Lib/site-packages/arviz/data/__pycache__/io_numpyro.cpython-38.pyc",
+    "Lib/site-packages/arviz/data/__pycache__/io_pyjags.cpython-38.pyc",
+    "Lib/site-packages/arviz/data/__pycache__/io_pymc3.cpython-38.pyc",
+    "Lib/site-packages/arviz/data/__pycache__/io_pyro.cpython-38.pyc",
+    "Lib/site-packages/arviz/data/__pycache__/io_pystan.cpython-38.pyc",
+    "Lib/site-packages/arviz/data/__pycache__/io_tfp.cpython-38.pyc",
+    "Lib/site-packages/arviz/plots/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/arviz/plots/__pycache__/autocorrplot.cpython-38.pyc",
+    "Lib/site-packages/arviz/plots/backends/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/arviz/plots/backends/bokeh/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/arviz/plots/backends/bokeh/__pycache__/autocorrplot.cpython-38.pyc",
+    "Lib/site-packages/arviz/plots/backends/bokeh/__pycache__/bpvplot.cpython-38.pyc",
+    "Lib/site-packages/arviz/plots/backends/bokeh/__pycache__/compareplot.cpython-38.pyc",
+    "Lib/site-packages/arviz/plots/backends/bokeh/__pycache__/densityplot.cpython-38.pyc",
+    "Lib/site-packages/arviz/plots/backends/bokeh/__pycache__/distcomparisonplot.cpython-38.pyc",
+    "Lib/site-packages/arviz/plots/backends/bokeh/__pycache__/distplot.cpython-38.pyc",
+    "Lib/site-packages/arviz/plots/backends/bokeh/__pycache__/elpdplot.cpython-38.pyc",
+    "Lib/site-packages/arviz/plots/backends/bokeh/__pycache__/energyplot.cpython-38.pyc",
+    "Lib/site-packages/arviz/plots/backends/bokeh/__pycache__/essplot.cpython-38.pyc",
+    "Lib/site-packages/arviz/plots/backends/bokeh/__pycache__/forestplot.cpython-38.pyc",
+    "Lib/site-packages/arviz/plots/backends/bokeh/__pycache__/hdiplot.cpython-38.pyc",
+    "Lib/site-packages/arviz/plots/backends/bokeh/__pycache__/jointplot.cpython-38.pyc",
+    "Lib/site-packages/arviz/plots/backends/bokeh/__pycache__/kdeplot.cpython-38.pyc",
+    "Lib/site-packages/arviz/plots/backends/bokeh/__pycache__/khatplot.cpython-38.pyc",
+    "Lib/site-packages/arviz/plots/backends/bokeh/__pycache__/loopitplot.cpython-38.pyc",
+    "Lib/site-packages/arviz/plots/backends/bokeh/__pycache__/mcseplot.cpython-38.pyc",
+    "Lib/site-packages/arviz/plots/backends/bokeh/__pycache__/pairplot.cpython-38.pyc",
+    "Lib/site-packages/arviz/plots/backends/bokeh/__pycache__/parallelplot.cpython-38.pyc",
+    "Lib/site-packages/arviz/plots/backends/bokeh/__pycache__/posteriorplot.cpython-38.pyc",
+    "Lib/site-packages/arviz/plots/backends/bokeh/__pycache__/ppcplot.cpython-38.pyc",
+    "Lib/site-packages/arviz/plots/backends/bokeh/__pycache__/rankplot.cpython-38.pyc",
+    "Lib/site-packages/arviz/plots/backends/bokeh/__pycache__/separationplot.cpython-38.pyc",
+    "Lib/site-packages/arviz/plots/backends/bokeh/__pycache__/traceplot.cpython-38.pyc",
+    "Lib/site-packages/arviz/plots/backends/bokeh/__pycache__/violinplot.cpython-38.pyc",
+    "Lib/site-packages/arviz/plots/backends/matplotlib/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/arviz/plots/backends/matplotlib/__pycache__/autocorrplot.cpython-38.pyc",
+    "Lib/site-packages/arviz/plots/backends/matplotlib/__pycache__/bpvplot.cpython-38.pyc",
+    "Lib/site-packages/arviz/plots/backends/matplotlib/__pycache__/compareplot.cpython-38.pyc",
+    "Lib/site-packages/arviz/plots/backends/matplotlib/__pycache__/densityplot.cpython-38.pyc",
+    "Lib/site-packages/arviz/plots/backends/matplotlib/__pycache__/distcomparisonplot.cpython-38.pyc",
+    "Lib/site-packages/arviz/plots/backends/matplotlib/__pycache__/distplot.cpython-38.pyc",
+    "Lib/site-packages/arviz/plots/backends/matplotlib/__pycache__/elpdplot.cpython-38.pyc",
+    "Lib/site-packages/arviz/plots/backends/matplotlib/__pycache__/energyplot.cpython-38.pyc",
+    "Lib/site-packages/arviz/plots/backends/matplotlib/__pycache__/essplot.cpython-38.pyc",
+    "Lib/site-packages/arviz/plots/backends/matplotlib/__pycache__/forestplot.cpython-38.pyc",
+    "Lib/site-packages/arviz/plots/backends/matplotlib/__pycache__/hdiplot.cpython-38.pyc",
+    "Lib/site-packages/arviz/plots/backends/matplotlib/__pycache__/jointplot.cpython-38.pyc",
+    "Lib/site-packages/arviz/plots/backends/matplotlib/__pycache__/kdeplot.cpython-38.pyc",
+    "Lib/site-packages/arviz/plots/backends/matplotlib/__pycache__/khatplot.cpython-38.pyc",
+    "Lib/site-packages/arviz/plots/backends/matplotlib/__pycache__/loopitplot.cpython-38.pyc",
+    "Lib/site-packages/arviz/plots/backends/matplotlib/__pycache__/mcseplot.cpython-38.pyc",
+    "Lib/site-packages/arviz/plots/backends/matplotlib/__pycache__/pairplot.cpython-38.pyc",
+    "Lib/site-packages/arviz/plots/backends/matplotlib/__pycache__/parallelplot.cpython-38.pyc",
+    "Lib/site-packages/arviz/plots/backends/matplotlib/__pycache__/posteriorplot.cpython-38.pyc",
+    "Lib/site-packages/arviz/plots/backends/matplotlib/__pycache__/ppcplot.cpython-38.pyc",
+    "Lib/site-packages/arviz/plots/backends/matplotlib/__pycache__/rankplot.cpython-38.pyc",
+    "Lib/site-packages/arviz/plots/backends/matplotlib/__pycache__/separationplot.cpython-38.pyc",
+    "Lib/site-packages/arviz/plots/backends/matplotlib/__pycache__/traceplot.cpython-38.pyc",
+    "Lib/site-packages/arviz/plots/backends/matplotlib/__pycache__/violinplot.cpython-38.pyc",
+    "Lib/site-packages/arviz/plots/__pycache__/bpvplot.cpython-38.pyc",
+    "Lib/site-packages/arviz/plots/__pycache__/compareplot.cpython-38.pyc",
+    "Lib/site-packages/arviz/plots/__pycache__/densityplot.cpython-38.pyc",
+    "Lib/site-packages/arviz/plots/__pycache__/distcomparisonplot.cpython-38.pyc",
+    "Lib/site-packages/arviz/plots/__pycache__/distplot.cpython-38.pyc",
+    "Lib/site-packages/arviz/plots/__pycache__/elpdplot.cpython-38.pyc",
+    "Lib/site-packages/arviz/plots/__pycache__/energyplot.cpython-38.pyc",
+    "Lib/site-packages/arviz/plots/__pycache__/essplot.cpython-38.pyc",
+    "Lib/site-packages/arviz/plots/__pycache__/forestplot.cpython-38.pyc",
+    "Lib/site-packages/arviz/plots/__pycache__/hdiplot.cpython-38.pyc",
+    "Lib/site-packages/arviz/plots/__pycache__/jointplot.cpython-38.pyc",
+    "Lib/site-packages/arviz/plots/__pycache__/kdeplot.cpython-38.pyc",
+    "Lib/site-packages/arviz/plots/__pycache__/khatplot.cpython-38.pyc",
+    "Lib/site-packages/arviz/plots/__pycache__/loopitplot.cpython-38.pyc",
+    "Lib/site-packages/arviz/plots/__pycache__/mcseplot.cpython-38.pyc",
+    "Lib/site-packages/arviz/plots/__pycache__/pairplot.cpython-38.pyc",
+    "Lib/site-packages/arviz/plots/__pycache__/parallelplot.cpython-38.pyc",
+    "Lib/site-packages/arviz/plots/__pycache__/plot_utils.cpython-38.pyc",
+    "Lib/site-packages/arviz/plots/__pycache__/posteriorplot.cpython-38.pyc",
+    "Lib/site-packages/arviz/plots/__pycache__/ppcplot.cpython-38.pyc",
+    "Lib/site-packages/arviz/plots/__pycache__/rankplot.cpython-38.pyc",
+    "Lib/site-packages/arviz/plots/__pycache__/separationplot.cpython-38.pyc",
+    "Lib/site-packages/arviz/plots/__pycache__/traceplot.cpython-38.pyc",
+    "Lib/site-packages/arviz/plots/__pycache__/violinplot.cpython-38.pyc",
+    "Lib/site-packages/arviz/__pycache__/rcparams.cpython-38.pyc",
+    "Lib/site-packages/arviz/stats/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/arviz/stats/__pycache__/density_utils.cpython-38.pyc",
+    "Lib/site-packages/arviz/stats/__pycache__/diagnostics.cpython-38.pyc",
+    "Lib/site-packages/arviz/stats/__pycache__/stats.cpython-38.pyc",
+    "Lib/site-packages/arviz/stats/__pycache__/stats_refitting.cpython-38.pyc",
+    "Lib/site-packages/arviz/stats/__pycache__/stats_utils.cpython-38.pyc",
+    "Lib/site-packages/arviz/tests/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/arviz/tests/base_tests/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/arviz/tests/base_tests/__pycache__/test_data.cpython-38.pyc",
+    "Lib/site-packages/arviz/tests/base_tests/__pycache__/test_data_zarr.cpython-38.pyc",
+    "Lib/site-packages/arviz/tests/base_tests/__pycache__/test_diagnostics.cpython-38.pyc",
+    "Lib/site-packages/arviz/tests/base_tests/__pycache__/test_diagnostics_numba.cpython-38.pyc",
+    "Lib/site-packages/arviz/tests/base_tests/__pycache__/test_helpers.cpython-38.pyc",
+    "Lib/site-packages/arviz/tests/base_tests/__pycache__/test_plot_utils.cpython-38.pyc",
+    "Lib/site-packages/arviz/tests/base_tests/__pycache__/test_plots_bokeh.cpython-38.pyc",
+    "Lib/site-packages/arviz/tests/base_tests/__pycache__/test_plots_matplotlib.cpython-38.pyc",
+    "Lib/site-packages/arviz/tests/base_tests/__pycache__/test_rcparams.cpython-38.pyc",
+    "Lib/site-packages/arviz/tests/base_tests/__pycache__/test_stats.cpython-38.pyc",
+    "Lib/site-packages/arviz/tests/base_tests/__pycache__/test_stats_numba.cpython-38.pyc",
+    "Lib/site-packages/arviz/tests/base_tests/__pycache__/test_stats_utils.cpython-38.pyc",
+    "Lib/site-packages/arviz/tests/base_tests/__pycache__/test_utils.cpython-38.pyc",
+    "Lib/site-packages/arviz/tests/base_tests/__pycache__/test_utils_numba.cpython-38.pyc",
+    "Lib/site-packages/arviz/tests/__pycache__/conftest.cpython-38.pyc",
+    "Lib/site-packages/arviz/tests/external_tests/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/arviz/tests/external_tests/__pycache__/test_data_cmdstan.cpython-38.pyc",
+    "Lib/site-packages/arviz/tests/external_tests/__pycache__/test_data_cmdstanpy.cpython-38.pyc",
+    "Lib/site-packages/arviz/tests/external_tests/__pycache__/test_data_emcee.cpython-38.pyc",
+    "Lib/site-packages/arviz/tests/external_tests/__pycache__/test_data_numpyro.cpython-38.pyc",
+    "Lib/site-packages/arviz/tests/external_tests/__pycache__/test_data_pyjags.cpython-38.pyc",
+    "Lib/site-packages/arviz/tests/external_tests/__pycache__/test_data_pymc.cpython-38.pyc",
+    "Lib/site-packages/arviz/tests/external_tests/__pycache__/test_data_pyro.cpython-38.pyc",
+    "Lib/site-packages/arviz/tests/external_tests/__pycache__/test_data_pystan.cpython-38.pyc",
+    "Lib/site-packages/arviz/tests/external_tests/__pycache__/test_data_tfp.cpython-38.pyc",
+    "Lib/site-packages/arviz/tests/__pycache__/helpers.cpython-38.pyc",
+    "Lib/site-packages/arviz/__pycache__/utils.cpython-38.pyc",
+    "Lib/site-packages/arviz/wrappers/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/arviz/wrappers/__pycache__/base.cpython-38.pyc",
+    "Lib/site-packages/arviz/wrappers/__pycache__/wrap_pystan.cpython-38.pyc"
+  ],
+  "fn": "arviz-0.11.2-pyhd3eb1b0_0.conda",
+  "legacy_bz2_md5": "1da35425b0da871a05a05b3a3aa533dd",
+  "license": "Apache-2.0",
+  "license_family": "Apache",
+  "link": {
+    "source": "C:\\Users\\shreyash12\\.conda\\pkgs\\arviz-0.11.2-pyhd3eb1b0_0",
+    "type": 1
+  },
+  "md5": "583b918c5ccd40590c91363cd33e20d5",
+  "name": "arviz",
+  "noarch": "python",
+  "package_tarball_full_path": "C:\\Users\\shreyash12\\.conda\\pkgs\\arviz-0.11.2-pyhd3eb1b0_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/arviz-0.11.2.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/arviz-0.11.2.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "c6596eb7be8581c18be736c846fb9173b69eccf6ef94c5135893ec56bd92ba08",
+        "sha256_in_prefix": "c6596eb7be8581c18be736c846fb9173b69eccf6ef94c5135893ec56bd92ba08",
+        "size_in_bytes": 11358
+      },
+      {
+        "_path": "site-packages/arviz-0.11.2.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "8ef787e71f03f1cd26821c74363bb20e06f1d78073c4361b5029639c7ffac401",
+        "sha256_in_prefix": "8ef787e71f03f1cd26821c74363bb20e06f1d78073c4361b5029639c7ffac401",
+        "size_in_bytes": 8138
+      },
+      {
+        "_path": "site-packages/arviz-0.11.2.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "b814a2230637bcf319b7c0153e43c0445c60fdd56d1217847c67e845ed4547dc",
+        "sha256_in_prefix": "b814a2230637bcf319b7c0153e43c0445c60fdd56d1217847c67e845ed4547dc",
+        "size_in_bytes": 23183
+      },
+      {
+        "_path": "site-packages/arviz-0.11.2.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/arviz-0.11.2.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "3aa464174798e461ecb0ca2b16395b4c8ab4ef6be91e917ad1f21003a952f710",
+        "sha256_in_prefix": "3aa464174798e461ecb0ca2b16395b4c8ab4ef6be91e917ad1f21003a952f710",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/arviz-0.11.2.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "cec506fbd9efe2729f691184ec900a2001ac870a27349f161acac97c12c12239",
+        "sha256_in_prefix": "cec506fbd9efe2729f691184ec900a2001ac870a27349f161acac97c12c12239",
+        "size_in_bytes": 78
+      },
+      {
+        "_path": "site-packages/arviz-0.11.2.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "e4c16faab4ed6115ac231f928cab852141edae7549ab436077435cdbf7ad4211",
+        "sha256_in_prefix": "e4c16faab4ed6115ac231f928cab852141edae7549ab436077435cdbf7ad4211",
+        "size_in_bytes": 6
+      },
+      {
+        "_path": "site-packages/arviz/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "678fe62eec76750bb0778d074a85d1e099e82c51e4ac073f0eae95dfe104f155",
+        "sha256_in_prefix": "678fe62eec76750bb0778d074a85d1e099e82c51e4ac073f0eae95dfe104f155",
+        "size_in_bytes": 10256
+      },
+      {
+        "_path": "site-packages/arviz/data/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e80e581fdba8b8f9dc0275615eb439e6a17fa3228757fa1d516b4366b97615b7",
+        "sha256_in_prefix": "e80e581fdba8b8f9dc0275615eb439e6a17fa3228757fa1d516b4366b97615b7",
+        "size_in_bytes": 1292
+      },
+      {
+        "_path": "site-packages/arviz/data/_datasets/centered_eight.nc",
+        "path_type": "hardlink",
+        "sha256": "2c5501a9f5d7b6998fc7e6a4651030b9765032b2e5a1d7331f5b1f3df6c632a5",
+        "sha256_in_prefix": "2c5501a9f5d7b6998fc7e6a4651030b9765032b2e5a1d7331f5b1f3df6c632a5",
+        "size_in_bytes": 616237
+      },
+      {
+        "_path": "site-packages/arviz/data/_datasets/non_centered_eight.nc",
+        "path_type": "hardlink",
+        "sha256": "b57bcd06ab303573d7937a6ddeb202b69eac91431a96eb1ccba38f766dab0678",
+        "sha256_in_prefix": "b57bcd06ab303573d7937a6ddeb202b69eac91431a96eb1ccba38f766dab0678",
+        "size_in_bytes": 776656
+      },
+      {
+        "_path": "site-packages/arviz/data/base.py",
+        "path_type": "hardlink",
+        "sha256": "b2a53d8b8f897d394f1b22961706dbbf0df11d8ede2722accef5344200da0f88",
+        "sha256_in_prefix": "b2a53d8b8f897d394f1b22961706dbbf0df11d8ede2722accef5344200da0f88",
+        "size_in_bytes": 12756
+      },
+      {
+        "_path": "site-packages/arviz/data/converters.py",
+        "path_type": "hardlink",
+        "sha256": "f305e7f09864797bfdea4ac635a225affe3386b43bc5a9b9919c8515f4521ffd",
+        "sha256_in_prefix": "f305e7f09864797bfdea4ac635a225affe3386b43bc5a9b9919c8515f4521ffd",
+        "size_in_bytes": 7791
+      },
+      {
+        "_path": "site-packages/arviz/data/datasets.py",
+        "path_type": "hardlink",
+        "sha256": "8110714b6452b634b80398475741e0e18ff2bde00b2d68087add601806b2f26f",
+        "sha256_in_prefix": "8110714b6452b634b80398475741e0e18ff2bde00b2d68087add601806b2f26f",
+        "size_in_bytes": 10393
+      },
+      {
+        "_path": "site-packages/arviz/data/inference_data.py",
+        "path_type": "hardlink",
+        "sha256": "04e34b22044ade666c179cea7abebf6f26ce1ce413630532a7387041e9f00944",
+        "sha256_in_prefix": "04e34b22044ade666c179cea7abebf6f26ce1ce413630532a7387041e9f00944",
+        "size_in_bytes": 81534
+      },
+      {
+        "_path": "site-packages/arviz/data/io_cmdstan.py",
+        "path_type": "hardlink",
+        "sha256": "5dd9403a683388734432c33c16319996544f0cef8c9622d25709dda3946e6cb1",
+        "sha256_in_prefix": "5dd9403a683388734432c33c16319996544f0cef8c9622d25709dda3946e6cb1",
+        "size_in_bytes": 34727
+      },
+      {
+        "_path": "site-packages/arviz/data/io_cmdstanpy.py",
+        "path_type": "hardlink",
+        "sha256": "d5089cdcbf90004233eac3971d5412d534662a9522008f39233fbe58907a1a0a",
+        "sha256_in_prefix": "d5089cdcbf90004233eac3971d5412d534662a9522008f39233fbe58907a1a0a",
+        "size_in_bytes": 24165
+      },
+      {
+        "_path": "site-packages/arviz/data/io_dict.py",
+        "path_type": "hardlink",
+        "sha256": "dbb0b6d612218fdfd048d12e897b10b23f3d96dd7de3849dd02c8d0fbe882e1b",
+        "sha256_in_prefix": "dbb0b6d612218fdfd048d12e897b10b23f3d96dd7de3849dd02c8d0fbe882e1b",
+        "size_in_bytes": 14274
+      },
+      {
+        "_path": "site-packages/arviz/data/io_emcee.py",
+        "path_type": "hardlink",
+        "sha256": "843bf45024d85f6e25c7ffbb3effafc7ee67986b0f03c2045ef436383ab28bcd",
+        "sha256_in_prefix": "843bf45024d85f6e25c7ffbb3effafc7ee67986b0f03c2045ef436383ab28bcd",
+        "size_in_bytes": 18115
+      },
+      {
+        "_path": "site-packages/arviz/data/io_json.py",
+        "path_type": "hardlink",
+        "sha256": "96b48fffd69b7d45bfe44f13c271b886c4b91cd1f30076500894f29e5fed5ca6",
+        "sha256_in_prefix": "96b48fffd69b7d45bfe44f13c271b886c4b91cd1f30076500894f29e5fed5ca6",
+        "size_in_bytes": 1256
+      },
+      {
+        "_path": "site-packages/arviz/data/io_netcdf.py",
+        "path_type": "hardlink",
+        "sha256": "047bf2b3aac4cc24f5c6f804fdfa04ab4fca0f6f9d8f5e9a0c3976d4c165e58e",
+        "sha256_in_prefix": "047bf2b3aac4cc24f5c6f804fdfa04ab4fca0f6f9d8f5e9a0c3976d4c165e58e",
+        "size_in_bytes": 1500
+      },
+      {
+        "_path": "site-packages/arviz/data/io_numpyro.py",
+        "path_type": "hardlink",
+        "sha256": "de4cc5c1fd93ccffc92da8735bb9f85beed46d3d87303998b588e056673ece56",
+        "sha256_in_prefix": "de4cc5c1fd93ccffc92da8735bb9f85beed46d3d87303998b588e056673ece56",
+        "size_in_bytes": 13633
+      },
+      {
+        "_path": "site-packages/arviz/data/io_pyjags.py",
+        "path_type": "hardlink",
+        "sha256": "e34f1bd9ba962ac34189280ce6927052a5e51fa50586e78ca25f55c7b484d5e2",
+        "sha256_in_prefix": "e34f1bd9ba962ac34189280ce6927052a5e51fa50586e78ca25f55c7b484d5e2",
+        "size_in_bytes": 13238
+      },
+      {
+        "_path": "site-packages/arviz/data/io_pymc3.py",
+        "path_type": "hardlink",
+        "sha256": "058566cfd82dd9e8b38f699c0f98db9152bfb81fb6a5a62c4c49a659aa798f53",
+        "sha256_in_prefix": "058566cfd82dd9e8b38f699c0f98db9152bfb81fb6a5a62c4c49a659aa798f53",
+        "size_in_bytes": 25931
+      },
+      {
+        "_path": "site-packages/arviz/data/io_pyro.py",
+        "path_type": "hardlink",
+        "sha256": "e86d53deda927bf95b356b0d2c41404ab7ebad372cd98f5c1cd4b2b1ffbadbec",
+        "sha256_in_prefix": "e86d53deda927bf95b356b0d2c41404ab7ebad372cd98f5c1cd4b2b1ffbadbec",
+        "size_in_bytes": 13530
+      },
+      {
+        "_path": "site-packages/arviz/data/io_pystan.py",
+        "path_type": "hardlink",
+        "sha256": "60a4fa192ac4a91a0e73240ff3b3ac57fba90490fb0964ced39d407710ea0cbd",
+        "sha256_in_prefix": "60a4fa192ac4a91a0e73240ff3b3ac57fba90490fb0964ced39d407710ea0cbd",
+        "size_in_bytes": 37125
+      },
+      {
+        "_path": "site-packages/arviz/data/io_tfp.py",
+        "path_type": "hardlink",
+        "sha256": "eb4275ce1bc7de19edd0b528136945109bca6fd3b757861f46814327263aed1a",
+        "sha256_in_prefix": "eb4275ce1bc7de19edd0b528136945109bca6fd3b757861f46814327263aed1a",
+        "size_in_bytes": 7449
+      },
+      {
+        "_path": "site-packages/arviz/plots/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "9e859572a77539972d44c1eb6444831ea5be9aff5463f809fc625eaef3cb950a",
+        "sha256_in_prefix": "9e859572a77539972d44c1eb6444831ea5be9aff5463f809fc625eaef3cb950a",
+        "size_in_bytes": 1341
+      },
+      {
+        "_path": "site-packages/arviz/plots/autocorrplot.py",
+        "path_type": "hardlink",
+        "sha256": "1145db6495dfe343abe41c1bed9f3355d5af5794b68d3773b84bfbad09ca5566",
+        "sha256_in_prefix": "1145db6495dfe343abe41c1bed9f3355d5af5794b68d3773b84bfbad09ca5566",
+        "size_in_bytes": 4739
+      },
+      {
+        "_path": "site-packages/arviz/plots/backends/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "6019f893768b32bc643ff67f97d81a58f0b3fb09f84504d3d43325770a6088dc",
+        "sha256_in_prefix": "6019f893768b32bc643ff67f97d81a58f0b3fb09f84504d3d43325770a6088dc",
+        "size_in_bytes": 7615
+      },
+      {
+        "_path": "site-packages/arviz/plots/backends/bokeh/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "53467be178c5568554ed380ec65620174af55cc1ff2143ecf18af36f5fd93c46",
+        "sha256_in_prefix": "53467be178c5568554ed380ec65620174af55cc1ff2143ecf18af36f5fd93c46",
+        "size_in_bytes": 4943
+      },
+      {
+        "_path": "site-packages/arviz/plots/backends/bokeh/autocorrplot.py",
+        "path_type": "hardlink",
+        "sha256": "ecd7be53c28805a3d688af49a0f3e450afbbb96ed35b6eb984df35245b1a412f",
+        "sha256_in_prefix": "ecd7be53c28805a3d688af49a0f3e450afbbb96ed35b6eb984df35245b1a412f",
+        "size_in_bytes": 2435
+      },
+      {
+        "_path": "site-packages/arviz/plots/backends/bokeh/bpvplot.py",
+        "path_type": "hardlink",
+        "sha256": "444610d040fbfb1ac8b35e5498bc04e9f031f262e59e785a105c53bdbdb254e0",
+        "sha256_in_prefix": "444610d040fbfb1ac8b35e5498bc04e9f031f262e59e785a105c53bdbdb254e0",
+        "size_in_bytes": 6609
+      },
+      {
+        "_path": "site-packages/arviz/plots/backends/bokeh/compareplot.py",
+        "path_type": "hardlink",
+        "sha256": "e5c3bc9356a2a4e0ea7d93bf278b5621760d8041a8937ba88e49c019c2c373cf",
+        "sha256_in_prefix": "e5c3bc9356a2a4e0ea7d93bf278b5621760d8041a8937ba88e49c019c2c373cf",
+        "size_in_bytes": 4149
+      },
+      {
+        "_path": "site-packages/arviz/plots/backends/bokeh/densityplot.py",
+        "path_type": "hardlink",
+        "sha256": "c43ac372683448bc69c7f7fe5bf9a1b864c6ad09769c0a72a5c77c7648305cd8",
+        "sha256_in_prefix": "c43ac372683448bc69c7f7fe5bf9a1b864c6ad09769c0a72a5c77c7648305cd8",
+        "size_in_bytes": 6367
+      },
+      {
+        "_path": "site-packages/arviz/plots/backends/bokeh/distcomparisonplot.py",
+        "path_type": "hardlink",
+        "sha256": "41f8e8a8b7702432a621f5573850dec3a8743e432d9909606ebad1973b88da8d",
+        "sha256_in_prefix": "41f8e8a8b7702432a621f5573850dec3a8743e432d9909606ebad1973b88da8d",
+        "size_in_bytes": 417
+      },
+      {
+        "_path": "site-packages/arviz/plots/backends/bokeh/distplot.py",
+        "path_type": "hardlink",
+        "sha256": "081c9b224b8dce911fdeefd70280f0e1bd84f6a25d625de042a69334f73f2038",
+        "sha256_in_prefix": "081c9b224b8dce911fdeefd70280f0e1bd84f6a25d625de042a69334f73f2038",
+        "size_in_bytes": 4803
+      },
+      {
+        "_path": "site-packages/arviz/plots/backends/bokeh/elpdplot.py",
+        "path_type": "hardlink",
+        "sha256": "53a29368383c313f768c321355f036540261b744c8619cc84a1f2f180cb86760",
+        "sha256_in_prefix": "53a29368383c313f768c321355f036540261b744c8619cc84a1f2f180cb86760",
+        "size_in_bytes": 6564
+      },
+      {
+        "_path": "site-packages/arviz/plots/backends/bokeh/energyplot.py",
+        "path_type": "hardlink",
+        "sha256": "6ada59e281e69e5e12a54f93dd5e1774cd201f91fb3923b4a915755e1d331ddf",
+        "sha256_in_prefix": "6ada59e281e69e5e12a54f93dd5e1774cd201f91fb3923b4a915755e1d331ddf",
+        "size_in_bytes": 4653
+      },
+      {
+        "_path": "site-packages/arviz/plots/backends/bokeh/essplot.py",
+        "path_type": "hardlink",
+        "sha256": "a84cedf98b155bc052169ae7092c2f29c942906af764eaab286bbfcd291ae9b8",
+        "sha256_in_prefix": "a84cedf98b155bc052169ae7092c2f29c942906af764eaab286bbfcd291ae9b8",
+        "size_in_bytes": 5038
+      },
+      {
+        "_path": "site-packages/arviz/plots/backends/bokeh/forestplot.py",
+        "path_type": "hardlink",
+        "sha256": "3ac2484497acf2ae43fa449f708b9a5a68940aeefc01e702d4a3fa971098c902",
+        "sha256_in_prefix": "3ac2484497acf2ae43fa449f708b9a5a68940aeefc01e702d4a3fa971098c902",
+        "size_in_bytes": 23816
+      },
+      {
+        "_path": "site-packages/arviz/plots/backends/bokeh/hdiplot.py",
+        "path_type": "hardlink",
+        "sha256": "ee55106182431c784d8571684c797a2ad2344e772bfbfc37dab21894dd68b152",
+        "sha256_in_prefix": "ee55106182431c784d8571684c797a2ad2344e772bfbfc37dab21894dd68b152",
+        "size_in_bytes": 1537
+      },
+      {
+        "_path": "site-packages/arviz/plots/backends/bokeh/jointplot.py",
+        "path_type": "hardlink",
+        "sha256": "6ef392bffd7a852a1fcb25e7116e34301beddb4cd16ff3393bc506f2964b193b",
+        "sha256_in_prefix": "6ef392bffd7a852a1fcb25e7116e34301beddb4cd16ff3393bc506f2964b193b",
+        "size_in_bytes": 3583
+      },
+      {
+        "_path": "site-packages/arviz/plots/backends/bokeh/kdeplot.py",
+        "path_type": "hardlink",
+        "sha256": "64d049baab4c892e77849cf7690ddad881a1770e40e864bf40b850dbfaff36f7",
+        "sha256_in_prefix": "64d049baab4c892e77849cf7690ddad881a1770e40e864bf40b850dbfaff36f7",
+        "size_in_bytes": 8615
+      },
+      {
+        "_path": "site-packages/arviz/plots/backends/bokeh/khatplot.py",
+        "path_type": "hardlink",
+        "sha256": "5b83eddca1558900509d72e79369676dd70693a369395cc2c13b215094e47509",
+        "sha256_in_prefix": "5b83eddca1558900509d72e79369676dd70693a369395cc2c13b215094e47509",
+        "size_in_bytes": 4542
+      },
+      {
+        "_path": "site-packages/arviz/plots/backends/bokeh/loopitplot.py",
+        "path_type": "hardlink",
+        "sha256": "3ec64065c1d3d66c378c4bf953a71bb1640cdcb7f2f38f31a6bf90fee48a0d68",
+        "sha256_in_prefix": "3ec64065c1d3d66c378c4bf953a71bb1640cdcb7f2f38f31a6bf90fee48a0d68",
+        "size_in_bytes": 7649
+      },
+      {
+        "_path": "site-packages/arviz/plots/backends/bokeh/mcseplot.py",
+        "path_type": "hardlink",
+        "sha256": "e8754dcd3439c37c8aea3850fdbb30b76ab078714dd2641dbc441b7a49dd5cd4",
+        "sha256_in_prefix": "e8754dcd3439c37c8aea3850fdbb30b76ab078714dd2641dbc441b7a49dd5cd4",
+        "size_in_bytes": 5851
+      },
+      {
+        "_path": "site-packages/arviz/plots/backends/bokeh/pairplot.py",
+        "path_type": "hardlink",
+        "sha256": "95394ec4e53c6211f7b54bd3744544780c3c729c341f080b525b1fd9a0fe1723",
+        "sha256_in_prefix": "95394ec4e53c6211f7b54bd3744544780c3c729c341f080b525b1fd9a0fe1723",
+        "size_in_bytes": 13225
+      },
+      {
+        "_path": "site-packages/arviz/plots/backends/bokeh/parallelplot.py",
+        "path_type": "hardlink",
+        "sha256": "dc5cd96782938b2bb0908bd75f6154a990869d0700e4db0b6dc32d9490f6a3bf",
+        "sha256_in_prefix": "dc5cd96782938b2bb0908bd75f6154a990869d0700e4db0b6dc32d9490f6a3bf",
+        "size_in_bytes": 2229
+      },
+      {
+        "_path": "site-packages/arviz/plots/backends/bokeh/posteriorplot.py",
+        "path_type": "hardlink",
+        "sha256": "9b0e6a8b43b9ea069727b882f87e42c8b9b11f7640b249418bf057b84896d35a",
+        "sha256_in_prefix": "9b0e6a8b43b9ea069727b882f87e42c8b9b11f7640b249418bf057b84896d35a",
+        "size_in_bytes": 7990
+      },
+      {
+        "_path": "site-packages/arviz/plots/backends/bokeh/ppcplot.py",
+        "path_type": "hardlink",
+        "sha256": "39824c7a8f3fb654ca5b534bfd6c8f1636d63722a1fc42afa05e44aa587b3b4a",
+        "sha256_in_prefix": "39824c7a8f3fb654ca5b534bfd6c8f1636d63722a1fc42afa05e44aa587b3b4a",
+        "size_in_bytes": 9989
+      },
+      {
+        "_path": "site-packages/arviz/plots/backends/bokeh/rankplot.py",
+        "path_type": "hardlink",
+        "sha256": "442cead401fbb4815034d1b5459bd54ba3369cd82ef257cf45342339f5de62d5",
+        "sha256_in_prefix": "442cead401fbb4815034d1b5459bd54ba3369cd82ef257cf45342339f5de62d5",
+        "size_in_bytes": 4445
+      },
+      {
+        "_path": "site-packages/arviz/plots/backends/bokeh/separationplot.py",
+        "path_type": "hardlink",
+        "sha256": "095b5c898938a84be379d02ea0a3f9e02d68a2a2d00237db331cb002e0d27667",
+        "sha256_in_prefix": "095b5c898938a84be379d02ea0a3f9e02d68a2a2d00237db331cb002e0d27667",
+        "size_in_bytes": 2343
+      },
+      {
+        "_path": "site-packages/arviz/plots/backends/bokeh/traceplot.py",
+        "path_type": "hardlink",
+        "sha256": "be9983147b7f1aa76d9cb724c8b3348d6b7327d48bd094fa281a4d0f760a17d9",
+        "sha256_in_prefix": "be9983147b7f1aa76d9cb724c8b3348d6b7327d48bd094fa281a4d0f760a17d9",
+        "size_in_bytes": 14047
+      },
+      {
+        "_path": "site-packages/arviz/plots/backends/bokeh/violinplot.py",
+        "path_type": "hardlink",
+        "sha256": "9b1c887969a05be0d6f8fa71ecd2ed80990341b588d8e455c6aef12b554a10bb",
+        "sha256_in_prefix": "9b1c887969a05be0d6f8fa71ecd2ed80990341b588d8e455c6aef12b554a10bb",
+        "size_in_bytes": 3943
+      },
+      {
+        "_path": "site-packages/arviz/plots/backends/matplotlib/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "692350cd04c23b0ec563dd8a3c3e01af89111ffe69b914935cb49cc9db1d6af4",
+        "sha256_in_prefix": "692350cd04c23b0ec563dd8a3c3e01af89111ffe69b914935cb49cc9db1d6af4",
+        "size_in_bytes": 3794
+      },
+      {
+        "_path": "site-packages/arviz/plots/backends/matplotlib/autocorrplot.py",
+        "path_type": "hardlink",
+        "sha256": "54b554a69dd44ee74af3d2b90eca8b5724a33c6ced9b8bb7f6d1cc4ec650a501",
+        "sha256_in_prefix": "54b554a69dd44ee74af3d2b90eca8b5724a33c6ced9b8bb7f6d1cc4ec650a501",
+        "size_in_bytes": 1758
+      },
+      {
+        "_path": "site-packages/arviz/plots/backends/matplotlib/bpvplot.py",
+        "path_type": "hardlink",
+        "sha256": "4d12c8b183865d787523952efd8b9853540c73717abcc7cf89eb718eebe345b4",
+        "sha256_in_prefix": "4d12c8b183865d787523952efd8b9853540c73717abcc7cf89eb718eebe345b4",
+        "size_in_bytes": 6394
+      },
+      {
+        "_path": "site-packages/arviz/plots/backends/matplotlib/compareplot.py",
+        "path_type": "hardlink",
+        "sha256": "e3b042153b6d055071f2d5e8caaff30e53ff01645e89e10ebee4d1ec5bfb5cc8",
+        "sha256_in_prefix": "e3b042153b6d055071f2d5e8caaff30e53ff01645e89e10ebee4d1ec5bfb5cc8",
+        "size_in_bytes": 3351
+      },
+      {
+        "_path": "site-packages/arviz/plots/backends/matplotlib/densityplot.py",
+        "path_type": "hardlink",
+        "sha256": "2d8b080d0c943608ac98f145be281d3278edaa7561481b9853082aaeea3fc84b",
+        "sha256_in_prefix": "2d8b080d0c943608ac98f145be281d3278edaa7561481b9853082aaeea3fc84b",
+        "size_in_bytes": 5475
+      },
+      {
+        "_path": "site-packages/arviz/plots/backends/matplotlib/distcomparisonplot.py",
+        "path_type": "hardlink",
+        "sha256": "34d025be174c880cc0f929abcb30fcff6c9c9800d2d5761c9c7be90edd61d8eb",
+        "sha256_in_prefix": "34d025be174c880cc0f929abcb30fcff6c9c9800d2d5761c9c7be90edd61d8eb",
+        "size_in_bytes": 3565
+      },
+      {
+        "_path": "site-packages/arviz/plots/backends/matplotlib/distplot.py",
+        "path_type": "hardlink",
+        "sha256": "2b1818dd2bbcabc9e01d278b3ffe71fd57e431a855883797bd1d51085aee8a67",
+        "sha256_in_prefix": "2b1818dd2bbcabc9e01d278b3ffe71fd57e431a855883797bd1d51085aee8a67",
+        "size_in_bytes": 4349
+      },
+      {
+        "_path": "site-packages/arviz/plots/backends/matplotlib/elpdplot.py",
+        "path_type": "hardlink",
+        "sha256": "ee6b092d56abcaa7a867ba6f1415118fa6f5e70a58dd3f8cdc94b04db667fe54",
+        "sha256_in_prefix": "ee6b092d56abcaa7a867ba6f1415118fa6f5e70a58dd3f8cdc94b04db667fe54",
+        "size_in_bytes": 6738
+      },
+      {
+        "_path": "site-packages/arviz/plots/backends/matplotlib/energyplot.py",
+        "path_type": "hardlink",
+        "sha256": "4fd9d2ff58ee9bc270f9c29be8f9f54435e8edd1b8028ece4b2e5abacb88fd28",
+        "sha256_in_prefix": "4fd9d2ff58ee9bc270f9c29be8f9f54435e8edd1b8028ece4b2e5abacb88fd28",
+        "size_in_bytes": 3363
+      },
+      {
+        "_path": "site-packages/arviz/plots/backends/matplotlib/essplot.py",
+        "path_type": "hardlink",
+        "sha256": "0f2f5ef4b0bc393d313044200610e291ddf983a2a857f0a695c1df65269b7c18",
+        "sha256_in_prefix": "0f2f5ef4b0bc393d313044200610e291ddf983a2a857f0a695c1df65269b7c18",
+        "size_in_bytes": 6157
+      },
+      {
+        "_path": "site-packages/arviz/plots/backends/matplotlib/forestplot.py",
+        "path_type": "hardlink",
+        "sha256": "62849d281902744f337dba36f7c43bf4bf92a95a6ac651d4c8dfe676851c4275",
+        "sha256_in_prefix": "62849d281902744f337dba36f7c43bf4bf92a95a6ac651d4c8dfe676851c4275",
+        "size_in_bytes": 22166
+      },
+      {
+        "_path": "site-packages/arviz/plots/backends/matplotlib/hdiplot.py",
+        "path_type": "hardlink",
+        "sha256": "8e3a5b576763c0cc7c821ae08780a9886498f53ac8cd8d709deffeff7bdd070c",
+        "sha256_in_prefix": "8e3a5b576763c0cc7c821ae08780a9886498f53ac8cd8d709deffeff7bdd070c",
+        "size_in_bytes": 1520
+      },
+      {
+        "_path": "site-packages/arviz/plots/backends/matplotlib/jointplot.py",
+        "path_type": "hardlink",
+        "sha256": "79ba9f4a5905bbd66202b7c01357b55c90adc7b5c8c90221e1f32b5af7bdb0f1",
+        "sha256_in_prefix": "79ba9f4a5905bbd66202b7c01357b55c90adc7b5c8c90221e1f32b5af7bdb0f1",
+        "size_in_bytes": 3029
+      },
+      {
+        "_path": "site-packages/arviz/plots/backends/matplotlib/kdeplot.py",
+        "path_type": "hardlink",
+        "sha256": "66861b32a3cbbe17e08477bdae2e7b6722954e420c0bae93211fd69d5745e3a5",
+        "sha256_in_prefix": "66861b32a3cbbe17e08477bdae2e7b6722954e420c0bae93211fd69d5745e3a5",
+        "size_in_bytes": 5304
+      },
+      {
+        "_path": "site-packages/arviz/plots/backends/matplotlib/khatplot.py",
+        "path_type": "hardlink",
+        "sha256": "d47dbbf91d187ae8022169ec10a403fee3e8ab7944ba1528ebc6d2912577056d",
+        "sha256_in_prefix": "d47dbbf91d187ae8022169ec10a403fee3e8ab7944ba1528ebc6d2912577056d",
+        "size_in_bytes": 6935
+      },
+      {
+        "_path": "site-packages/arviz/plots/backends/matplotlib/loopitplot.py",
+        "path_type": "hardlink",
+        "sha256": "40c934be1e3577eedbda04f594c9fd903d38c03c99529a5f3848122bdc772469",
+        "sha256_in_prefix": "40c934be1e3577eedbda04f594c9fd903d38c03c99529a5f3848122bdc772469",
+        "size_in_bytes": 4750
+      },
+      {
+        "_path": "site-packages/arviz/plots/backends/matplotlib/mcseplot.py",
+        "path_type": "hardlink",
+        "sha256": "fe2c99c2b36e19b422c872d4c53949656ad79a8fd55566f99225a7a89bfef32f",
+        "sha256_in_prefix": "fe2c99c2b36e19b422c872d4c53949656ad79a8fd55566f99225a7a89bfef32f",
+        "size_in_bytes": 5743
+      },
+      {
+        "_path": "site-packages/arviz/plots/backends/matplotlib/pairplot.py",
+        "path_type": "hardlink",
+        "sha256": "be3b8d264ef697c42a561c25d8ee6cca7dd0a5bf3aab4defbeb6a2fdb31a02ad",
+        "sha256_in_prefix": "be3b8d264ef697c42a561c25d8ee6cca7dd0a5bf3aab4defbeb6a2fdb31a02ad",
+        "size_in_bytes": 13101
+      },
+      {
+        "_path": "site-packages/arviz/plots/backends/matplotlib/parallelplot.py",
+        "path_type": "hardlink",
+        "sha256": "a77fe57f08d55c30a4d204ccfb26551806451d8f322a2d97aff1900336e25fbe",
+        "sha256_in_prefix": "a77fe57f08d55c30a4d204ccfb26551806451d8f322a2d97aff1900336e25fbe",
+        "size_in_bytes": 1449
+      },
+      {
+        "_path": "site-packages/arviz/plots/backends/matplotlib/posteriorplot.py",
+        "path_type": "hardlink",
+        "sha256": "daf7658769c4e251dd0258ebbc6e2b9595ba91acfd81d4d63cdafb3bcada3f5e",
+        "sha256_in_prefix": "daf7658769c4e251dd0258ebbc6e2b9595ba91acfd81d4d63cdafb3bcada3f5e",
+        "size_in_bytes": 8977
+      },
+      {
+        "_path": "site-packages/arviz/plots/backends/matplotlib/ppcplot.py",
+        "path_type": "hardlink",
+        "sha256": "96711abdc8b828c4b5e8e31235680f5a15e5ee2108dd7aa7551f559be6a17f97",
+        "sha256_in_prefix": "96711abdc8b828c4b5e8e31235680f5a15e5ee2108dd7aa7551f559be6a17f97",
+        "size_in_bytes": 15358
+      },
+      {
+        "_path": "site-packages/arviz/plots/backends/matplotlib/rankplot.py",
+        "path_type": "hardlink",
+        "sha256": "125a259fb4817d15e4cef30dee954ab60f967934871bcd77fe3f86dc2054ce47",
+        "sha256_in_prefix": "125a259fb4817d15e4cef30dee954ab60f967934871bcd77fe3f86dc2054ce47",
+        "size_in_bytes": 3590
+      },
+      {
+        "_path": "site-packages/arviz/plots/backends/matplotlib/separationplot.py",
+        "path_type": "hardlink",
+        "sha256": "59c36daf7d3bbef9eaee92310e0add41c905cf7300fdc4e5988f367da3bdb97d",
+        "sha256_in_prefix": "59c36daf7d3bbef9eaee92310e0add41c905cf7300fdc4e5988f367da3bdb97d",
+        "size_in_bytes": 2349
+      },
+      {
+        "_path": "site-packages/arviz/plots/backends/matplotlib/traceplot.py",
+        "path_type": "hardlink",
+        "sha256": "74f5f194a605e5b21257c799f2af9654fdbdaaca5e5655f1b8631b2dc4c689d5",
+        "sha256_in_prefix": "74f5f194a605e5b21257c799f2af9654fdbdaaca5e5655f1b8631b2dc4c689d5",
+        "size_in_bytes": 18831
+      },
+      {
+        "_path": "site-packages/arviz/plots/backends/matplotlib/violinplot.py",
+        "path_type": "hardlink",
+        "sha256": "4cf1b1fd68537a091dbf5114e4f5724f965a13447a827f9da72b4d348e4055dd",
+        "sha256_in_prefix": "4cf1b1fd68537a091dbf5114e4f5724f965a13447a827f9da72b4d348e4055dd",
+        "size_in_bytes": 3921
+      },
+      {
+        "_path": "site-packages/arviz/plots/bpvplot.py",
+        "path_type": "hardlink",
+        "sha256": "bbe29df5e68061487572d25560b6bf52f74c1a21520aabec01f13a8a8c096c64",
+        "sha256_in_prefix": "bbe29df5e68061487572d25560b6bf52f74c1a21520aabec01f13a8a8c096c64",
+        "size_in_bytes": 10457
+      },
+      {
+        "_path": "site-packages/arviz/plots/compareplot.py",
+        "path_type": "hardlink",
+        "sha256": "a53751729575807fb78bc078e981e65dd375747c8387968a5864f6b7f6ccf9d5",
+        "sha256_in_prefix": "a53751729575807fb78bc078e981e65dd375747c8387968a5864f6b7f6ccf9d5",
+        "size_in_bytes": 4549
+      },
+      {
+        "_path": "site-packages/arviz/plots/densityplot.py",
+        "path_type": "hardlink",
+        "sha256": "4776ef463c9900def11077bd4ab7ea7a3d00d3089050a22474e3f9dd43dfd4ca",
+        "sha256_in_prefix": "4776ef463c9900def11077bd4ab7ea7a3d00d3089050a22474e3f9dd43dfd4ca",
+        "size_in_bytes": 9388
+      },
+      {
+        "_path": "site-packages/arviz/plots/distcomparisonplot.py",
+        "path_type": "hardlink",
+        "sha256": "6d95e5207b451c91845c54b48a0b8b5dfde8cfd76a571712367225df4774c311",
+        "sha256_in_prefix": "6d95e5207b451c91845c54b48a0b8b5dfde8cfd76a571712367225df4774c311",
+        "size_in_bytes": 5305
+      },
+      {
+        "_path": "site-packages/arviz/plots/distplot.py",
+        "path_type": "hardlink",
+        "sha256": "81a1d314156358e0eb0510be879bed958e0feab46576733a6203209dc1825130",
+        "sha256_in_prefix": "81a1d314156358e0eb0510be879bed958e0feab46576733a6203209dc1825130",
+        "size_in_bytes": 6876
+      },
+      {
+        "_path": "site-packages/arviz/plots/elpdplot.py",
+        "path_type": "hardlink",
+        "sha256": "047c40c1fc7bb8280f05cda2930c844f70774bd02f38456db45a1208318761da",
+        "sha256_in_prefix": "047c40c1fc7bb8280f05cda2930c844f70774bd02f38456db45a1208318761da",
+        "size_in_bytes": 6197
+      },
+      {
+        "_path": "site-packages/arviz/plots/energyplot.py",
+        "path_type": "hardlink",
+        "sha256": "8780318d84194f4f9c31ee837f93d2da8ba407a39962070f700c92721f1e2c85",
+        "sha256_in_prefix": "8780318d84194f4f9c31ee837f93d2da8ba407a39962070f700c92721f1e2c85",
+        "size_in_bytes": 3729
+      },
+      {
+        "_path": "site-packages/arviz/plots/essplot.py",
+        "path_type": "hardlink",
+        "sha256": "1f08eeaec18b40c083bdfe78fdc81a4ada246b418b1f4d8be2f94e71250ac366",
+        "sha256_in_prefix": "1f08eeaec18b40c083bdfe78fdc81a4ada246b418b1f4d8be2f94e71250ac366",
+        "size_in_bytes": 10007
+      },
+      {
+        "_path": "site-packages/arviz/plots/forestplot.py",
+        "path_type": "hardlink",
+        "sha256": "69fd6458088abe097a83585b0bea008f848f9b9a8aa6ce8b63c00ef822f6b8bb",
+        "sha256_in_prefix": "69fd6458088abe097a83585b0bea008f848f9b9a8aa6ce8b63c00ef822f6b8bb",
+        "size_in_bytes": 9416
+      },
+      {
+        "_path": "site-packages/arviz/plots/hdiplot.py",
+        "path_type": "hardlink",
+        "sha256": "92a71f81b412ce1602339d8d90cd09522dd43085049d3296da43b66e72ed3f56",
+        "sha256_in_prefix": "92a71f81b412ce1602339d8d90cd09522dd43085049d3296da43b66e72ed3f56",
+        "size_in_bytes": 6523
+      },
+      {
+        "_path": "site-packages/arviz/plots/jointplot.py",
+        "path_type": "hardlink",
+        "sha256": "f922a1f00d50d8caba85c15692c548b65c08d0e783939bdf25703cf27db2ac19",
+        "sha256_in_prefix": "f922a1f00d50d8caba85c15692c548b65c08d0e783939bdf25703cf27db2ac19",
+        "size_in_bytes": 6527
+      },
+      {
+        "_path": "site-packages/arviz/plots/kdeplot.py",
+        "path_type": "hardlink",
+        "sha256": "7f7439cf7624ce8c61810afb420f600b2711b3aa2db89bd88f6d99f81b6634b9",
+        "sha256_in_prefix": "7f7439cf7624ce8c61810afb420f600b2711b3aa2db89bd88f6d99f81b6634b9",
+        "size_in_bytes": 9407
+      },
+      {
+        "_path": "site-packages/arviz/plots/khatplot.py",
+        "path_type": "hardlink",
+        "sha256": "3b2474c8886185eb683dddf9c33766644d17d4ea8ffb53d0250328b78d333eb7",
+        "sha256_in_prefix": "3b2474c8886185eb683dddf9c33766644d17d4ea8ffb53d0250328b78d333eb7",
+        "size_in_bytes": 6988
+      },
+      {
+        "_path": "site-packages/arviz/plots/loopitplot.py",
+        "path_type": "hardlink",
+        "sha256": "cc5b462d5018ba845751549507e2b1b154574569a434af1585a9b8c1b6095ca2",
+        "sha256_in_prefix": "cc5b462d5018ba845751549507e2b1b154574569a434af1585a9b8c1b6095ca2",
+        "size_in_bytes": 7509
+      },
+      {
+        "_path": "site-packages/arviz/plots/mcseplot.py",
+        "path_type": "hardlink",
+        "sha256": "69ffd2f001a0860974f7b151a88d6f8731e033a6688a06da3c5aab4f6cf1d311",
+        "sha256_in_prefix": "69ffd2f001a0860974f7b151a88d6f8731e033a6688a06da3c5aab4f6cf1d311",
+        "size_in_bytes": 5849
+      },
+      {
+        "_path": "site-packages/arviz/plots/pairplot.py",
+        "path_type": "hardlink",
+        "sha256": "ea4de8f104a3091a21631463949fe9f885c9d541f5931fd0724706f3401b25cc",
+        "sha256_in_prefix": "ea4de8f104a3091a21631463949fe9f885c9d541f5931fd0724706f3401b25cc",
+        "size_in_bytes": 10153
+      },
+      {
+        "_path": "site-packages/arviz/plots/parallelplot.py",
+        "path_type": "hardlink",
+        "sha256": "49001497af66431932612fc8a235abc31d5d632fa32e7d939e99bf2879af80d0",
+        "sha256_in_prefix": "49001497af66431932612fc8a235abc31d5d632fa32e7d939e99bf2879af80d0",
+        "size_in_bytes": 5870
+      },
+      {
+        "_path": "site-packages/arviz/plots/plot_utils.py",
+        "path_type": "hardlink",
+        "sha256": "748b5adb62b2145c511a70a34b4eb130ddae5f417eb80203f2b5d2f272cb217d",
+        "sha256_in_prefix": "748b5adb62b2145c511a70a34b4eb130ddae5f417eb80203f2b5d2f272cb217d",
+        "size_in_bytes": 21115
+      },
+      {
+        "_path": "site-packages/arviz/plots/posteriorplot.py",
+        "path_type": "hardlink",
+        "sha256": "0fe2e2c6073d9259f2cfecdc06d7711e02a31d9a4a3566b34543daade48d24bd",
+        "sha256_in_prefix": "0fe2e2c6073d9259f2cfecdc06d7711e02a31d9a4a3566b34543daade48d24bd",
+        "size_in_bytes": 9390
+      },
+      {
+        "_path": "site-packages/arviz/plots/ppcplot.py",
+        "path_type": "hardlink",
+        "sha256": "a4c4b3ff07d4d56892eaeffdde208bf57306dee266f3ce8abc01ce4260fe4fcc",
+        "sha256_in_prefix": "a4c4b3ff07d4d56892eaeffdde208bf57306dee266f3ce8abc01ce4260fe4fcc",
+        "size_in_bytes": 11887
+      },
+      {
+        "_path": "site-packages/arviz/plots/rankplot.py",
+        "path_type": "hardlink",
+        "sha256": "223d20ca8fad4306ba94f9059636e58c96e811b5f02da35d50f04df78defa4e2",
+        "sha256_in_prefix": "223d20ca8fad4306ba94f9059636e58c96e811b5f02da35d50f04df78defa4e2",
+        "size_in_bytes": 7865
+      },
+      {
+        "_path": "site-packages/arviz/plots/separationplot.py",
+        "path_type": "hardlink",
+        "sha256": "684097b1e47dbf9a0210e07a555a027f4cbf3409901f0cff95e6ed5e119e474d",
+        "sha256_in_prefix": "684097b1e47dbf9a0210e07a555a027f4cbf3409901f0cff95e6ed5e119e474d",
+        "size_in_bytes": 5400
+      },
+      {
+        "_path": "site-packages/arviz/plots/styles/arviz-bluish.mplstyle",
+        "path_type": "hardlink",
+        "sha256": "bf86f7517d79b9f40259b016dda7e513d8c4d30d53fcf6d899cf9ff10449b0a4",
+        "sha256_in_prefix": "bf86f7517d79b9f40259b016dda7e513d8c4d30d53fcf6d899cf9ff10449b0a4",
+        "size_in_bytes": 95
+      },
+      {
+        "_path": "site-packages/arviz/plots/styles/arviz-brownish.mplstyle",
+        "path_type": "hardlink",
+        "sha256": "56a61c39595c210546324e2c99d01983eba2f67239c6d638bda3406de41b85ab",
+        "sha256_in_prefix": "56a61c39595c210546324e2c99d01983eba2f67239c6d638bda3406de41b85ab",
+        "size_in_bytes": 94
+      },
+      {
+        "_path": "site-packages/arviz/plots/styles/arviz-colors.mplstyle",
+        "path_type": "hardlink",
+        "sha256": "d26a9fe3a95bdbe7ee8e02ce2739406c62dab9bce70366593944a886de9ea047",
+        "sha256_in_prefix": "d26a9fe3a95bdbe7ee8e02ce2739406c62dab9bce70366593944a886de9ea047",
+        "size_in_bytes": 218
+      },
+      {
+        "_path": "site-packages/arviz/plots/styles/arviz-cyanish.mplstyle",
+        "path_type": "hardlink",
+        "sha256": "dcb1b20c25c3f4cad4ac24f8d27726923b96daa561a70d436da6062b306ab17c",
+        "sha256_in_prefix": "dcb1b20c25c3f4cad4ac24f8d27726923b96daa561a70d436da6062b306ab17c",
+        "size_in_bytes": 93
+      },
+      {
+        "_path": "site-packages/arviz/plots/styles/arviz-darkgrid.mplstyle",
+        "path_type": "hardlink",
+        "sha256": "13a3a66852cde30d60ce3b710abca285d1e7c79a5678265938abcee5ef8311c4",
+        "sha256_in_prefix": "13a3a66852cde30d60ce3b710abca285d1e7c79a5678265938abcee5ef8311c4",
+        "size_in_bytes": 1078
+      },
+      {
+        "_path": "site-packages/arviz/plots/styles/arviz-grayscale.mplstyle",
+        "path_type": "hardlink",
+        "sha256": "066f6c2d2d47f4ea93eaf43688eb3a859fc9b63ceabecca1a36cdc8260b2cda1",
+        "sha256_in_prefix": "066f6c2d2d47f4ea93eaf43688eb3a859fc9b63ceabecca1a36cdc8260b2cda1",
+        "size_in_bytes": 1176
+      },
+      {
+        "_path": "site-packages/arviz/plots/styles/arviz-greenish.mplstyle",
+        "path_type": "hardlink",
+        "sha256": "3accd1de293fb36e423967c3fc9ea1d3727bd82fa276adb1681e4aac23b1a933",
+        "sha256_in_prefix": "3accd1de293fb36e423967c3fc9ea1d3727bd82fa276adb1681e4aac23b1a933",
+        "size_in_bytes": 93
+      },
+      {
+        "_path": "site-packages/arviz/plots/styles/arviz-orangish.mplstyle",
+        "path_type": "hardlink",
+        "sha256": "9a01926c902aa825de4de87d0a628fac3172ca0795dff4a97033b03ee3793fdf",
+        "sha256_in_prefix": "9a01926c902aa825de4de87d0a628fac3172ca0795dff4a97033b03ee3793fdf",
+        "size_in_bytes": 93
+      },
+      {
+        "_path": "site-packages/arviz/plots/styles/arviz-plasmish.mplstyle",
+        "path_type": "hardlink",
+        "sha256": "cecb407cc227a9258e6a47bef30d8338a60566044d8d8abf5c897c2b2ec7a14f",
+        "sha256_in_prefix": "cecb407cc227a9258e6a47bef30d8338a60566044d8d8abf5c897c2b2ec7a14f",
+        "size_in_bytes": 85
+      },
+      {
+        "_path": "site-packages/arviz/plots/styles/arviz-purplish.mplstyle",
+        "path_type": "hardlink",
+        "sha256": "d52dd0b6a1f7cb7684c509777abbbf31f7ac1bbcbaf934b9e32145d2cac40587",
+        "sha256_in_prefix": "d52dd0b6a1f7cb7684c509777abbbf31f7ac1bbcbaf934b9e32145d2cac40587",
+        "size_in_bytes": 93
+      },
+      {
+        "_path": "site-packages/arviz/plots/styles/arviz-redish.mplstyle",
+        "path_type": "hardlink",
+        "sha256": "737f6a0ac750478f021d3cd42a6de06bc641c50c7160e00d344830e72bf5844d",
+        "sha256_in_prefix": "737f6a0ac750478f021d3cd42a6de06bc641c50c7160e00d344830e72bf5844d",
+        "size_in_bytes": 93
+      },
+      {
+        "_path": "site-packages/arviz/plots/styles/arviz-royish.mplstyle",
+        "path_type": "hardlink",
+        "sha256": "d66a275372fde5d1cca8be5228617320a1375a335b0dfddc46b1cd409f28ab9e",
+        "sha256_in_prefix": "d66a275372fde5d1cca8be5228617320a1375a335b0dfddc46b1cd409f28ab9e",
+        "size_in_bytes": 87
+      },
+      {
+        "_path": "site-packages/arviz/plots/styles/arviz-viridish.mplstyle",
+        "path_type": "hardlink",
+        "sha256": "92e69ac682e8bbf04f88628d5f3bbe170fd24f4795b91c1d96ecaf283a176823",
+        "sha256_in_prefix": "92e69ac682e8bbf04f88628d5f3bbe170fd24f4795b91c1d96ecaf283a176823",
+        "size_in_bytes": 85
+      },
+      {
+        "_path": "site-packages/arviz/plots/styles/arviz-white.mplstyle",
+        "path_type": "hardlink",
+        "sha256": "a7775bbd6cce2a103ebbcaf70664c5f9b4796e12a1f3b88892454b0ff57a11d2",
+        "sha256_in_prefix": "a7775bbd6cce2a103ebbcaf70664c5f9b4796e12a1f3b88892454b0ff57a11d2",
+        "size_in_bytes": 1083
+      },
+      {
+        "_path": "site-packages/arviz/plots/styles/arviz-whitegrid.mplstyle",
+        "path_type": "hardlink",
+        "sha256": "20c8e395f1b7c20ee17948dc56b91ecf548da22308e812f3b463e6b14a758b0b",
+        "sha256_in_prefix": "20c8e395f1b7c20ee17948dc56b91ecf548da22308e812f3b463e6b14a758b0b",
+        "size_in_bytes": 1072
+      },
+      {
+        "_path": "site-packages/arviz/plots/traceplot.py",
+        "path_type": "hardlink",
+        "sha256": "32f28b787142eb3c5bc9171942f2e84b4357e7224f4dcb69f2171d3a6a22a20b",
+        "sha256_in_prefix": "32f28b787142eb3c5bc9171942f2e84b4357e7224f4dcb69f2171d3a6a22a20b",
+        "size_in_bytes": 9323
+      },
+      {
+        "_path": "site-packages/arviz/plots/violinplot.py",
+        "path_type": "hardlink",
+        "sha256": "d36076082390a2747d5e6d540c3ce8a6d86ac148cc34ee6e12debda92d7ee925",
+        "sha256_in_prefix": "d36076082390a2747d5e6d540c3ce8a6d86ac148cc34ee6e12debda92d7ee925",
+        "size_in_bytes": 5856
+      },
+      {
+        "_path": "site-packages/arviz/rcparams.py",
+        "path_type": "hardlink",
+        "sha256": "37f7ed34c1a1baf5f0f86bce571625b7e761caaf4b02e4bdb787161aec1ddeae",
+        "sha256_in_prefix": "37f7ed34c1a1baf5f0f86bce571625b7e761caaf4b02e4bdb787161aec1ddeae",
+        "size_in_bytes": 19228
+      },
+      {
+        "_path": "site-packages/arviz/static/css/style.css",
+        "path_type": "hardlink",
+        "sha256": "948c5d49477fe197feb351cd9c60987d12d5fc909d401b7ee44a6b701ac47416",
+        "sha256_in_prefix": "948c5d49477fe197feb351cd9c60987d12d5fc909d401b7ee44a6b701ac47416",
+        "size_in_bytes": 5900
+      },
+      {
+        "_path": "site-packages/arviz/static/html/icons-svg-inline.html",
+        "path_type": "hardlink",
+        "sha256": "b7e0a16ed4b51aff2e671737d430894bc4ae5c3b0b1941e82a0c2ff33bba8f63",
+        "sha256_in_prefix": "b7e0a16ed4b51aff2e671737d430894bc4ae5c3b0b1941e82a0c2ff33bba8f63",
+        "size_in_bytes": 1343
+      },
+      {
+        "_path": "site-packages/arviz/stats/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "3c5d4b0769a6db4fa7a6d6b9ea3d5a588b97db596dfd40c4209ef8a5e26f2c53",
+        "sha256_in_prefix": "3c5d4b0769a6db4fa7a6d6b9ea3d5a588b97db596dfd40c4209ef8a5e26f2c53",
+        "size_in_bytes": 562
+      },
+      {
+        "_path": "site-packages/arviz/stats/density_utils.py",
+        "path_type": "hardlink",
+        "sha256": "c401f72f8c4d1ce6c526803ed701945a75b58aaec833f1bba3904f99d64a64cb",
+        "sha256_in_prefix": "c401f72f8c4d1ce6c526803ed701945a75b58aaec833f1bba3904f99d64a64cb",
+        "size_in_bytes": 33255
+      },
+      {
+        "_path": "site-packages/arviz/stats/diagnostics.py",
+        "path_type": "hardlink",
+        "sha256": "fddbbf5d4786ad243aea1b4522f96a4347349f86f15af7729dc24299a3cea3d3",
+        "sha256_in_prefix": "fddbbf5d4786ad243aea1b4522f96a4347349f86f15af7729dc24299a3cea3d3",
+        "size_in_bytes": 30480
+      },
+      {
+        "_path": "site-packages/arviz/stats/stats.py",
+        "path_type": "hardlink",
+        "sha256": "8ead3fe9466751c0f26850d345fd5bd6b106b004bff6fa0426ec5fdee6a4d013",
+        "sha256_in_prefix": "8ead3fe9466751c0f26850d345fd5bd6b106b004bff6fa0426ec5fdee6a4d013",
+        "size_in_bytes": 65332
+      },
+      {
+        "_path": "site-packages/arviz/stats/stats_refitting.py",
+        "path_type": "hardlink",
+        "sha256": "c472ff93ca6cce14bcb1bd1979f856325b4f180868938ca6f5e55cf19dd303de",
+        "sha256_in_prefix": "c472ff93ca6cce14bcb1bd1979f856325b4f180868938ca6f5e55cf19dd303de",
+        "size_in_bytes": 5402
+      },
+      {
+        "_path": "site-packages/arviz/stats/stats_utils.py",
+        "path_type": "hardlink",
+        "sha256": "e83229a726bb2b4116733cbd158a34dee8591e7fa940ea1ba83e2599473bafee",
+        "sha256_in_prefix": "e83229a726bb2b4116733cbd158a34dee8591e7fa940ea1ba83e2599473bafee",
+        "size_in_bytes": 19476
+      },
+      {
+        "_path": "site-packages/arviz/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "4e24ba0b5233c005e635af2edfa636c732f50934d99b63f0cc0b66660a2a7a91",
+        "sha256_in_prefix": "4e24ba0b5233c005e635af2edfa636c732f50934d99b63f0cc0b66660a2a7a91",
+        "size_in_bytes": 18
+      },
+      {
+        "_path": "site-packages/arviz/tests/base_tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "ce0ed5e7fd0366b0b3ee8cc44ea113e9b52902f5149a6912a0ba492f06888f61",
+        "sha256_in_prefix": "ce0ed5e7fd0366b0b3ee8cc44ea113e9b52902f5149a6912a0ba492f06888f61",
+        "size_in_bytes": 23
+      },
+      {
+        "_path": "site-packages/arviz/tests/base_tests/test_data.py",
+        "path_type": "hardlink",
+        "sha256": "8cc1c1acb2ec2f3ce827142e8e82ad1d026cd8e56a5275bc1f518eb9b60e9ac2",
+        "sha256_in_prefix": "8cc1c1acb2ec2f3ce827142e8e82ad1d026cd8e56a5275bc1f518eb9b60e9ac2",
+        "size_in_bytes": 53521
+      },
+      {
+        "_path": "site-packages/arviz/tests/base_tests/test_data_zarr.py",
+        "path_type": "hardlink",
+        "sha256": "8bcb98ff0fd76efc10f35ceb29bf150c036d1eef7ed5e295784359b3bc53c61f",
+        "sha256_in_prefix": "8bcb98ff0fd76efc10f35ceb29bf150c036d1eef7ed5e295784359b3bc53c61f",
+        "size_in_bytes": 3748
+      },
+      {
+        "_path": "site-packages/arviz/tests/base_tests/test_diagnostics.py",
+        "path_type": "hardlink",
+        "sha256": "dad5a94af615f357942cf4ee58f4cd7613c59326aaaefc16d889f49f1c8c4921",
+        "sha256_in_prefix": "dad5a94af615f357942cf4ee58f4cd7613c59326aaaefc16d889f49f1c8c4921",
+        "size_in_bytes": 20581
+      },
+      {
+        "_path": "site-packages/arviz/tests/base_tests/test_diagnostics_numba.py",
+        "path_type": "hardlink",
+        "sha256": "da90cd3f3d8a1e510c30daaf1eecdc5bdd57c7b3440c8a71bb1a29dc5c4e4589",
+        "sha256_in_prefix": "da90cd3f3d8a1e510c30daaf1eecdc5bdd57c7b3440c8a71bb1a29dc5c4e4589",
+        "size_in_bytes": 3040
+      },
+      {
+        "_path": "site-packages/arviz/tests/base_tests/test_helpers.py",
+        "path_type": "hardlink",
+        "sha256": "f3d99c7eb6b7303146cd00a922c56d8b7b2f9cc0064e92438acc11a1d2676023",
+        "sha256_in_prefix": "f3d99c7eb6b7303146cd00a922c56d8b7b2f9cc0064e92438acc11a1d2676023",
+        "size_in_bytes": 657
+      },
+      {
+        "_path": "site-packages/arviz/tests/base_tests/test_plot_utils.py",
+        "path_type": "hardlink",
+        "sha256": "061e83e659c68ab563d6644d838d27ab6da59e49a92efbc1f2440fd20056b45d",
+        "sha256_in_prefix": "061e83e659c68ab563d6644d838d27ab6da59e49a92efbc1f2440fd20056b45d",
+        "size_in_bytes": 11511
+      },
+      {
+        "_path": "site-packages/arviz/tests/base_tests/test_plots_bokeh.py",
+        "path_type": "hardlink",
+        "sha256": "4246378ee319641d2aae9b3720067a3ccb7abb77e38cb17b2b54305619ecc728",
+        "sha256_in_prefix": "4246378ee319641d2aae9b3720067a3ccb7abb77e38cb17b2b54305619ecc728",
+        "size_in_bytes": 35382
+      },
+      {
+        "_path": "site-packages/arviz/tests/base_tests/test_plots_matplotlib.py",
+        "path_type": "hardlink",
+        "sha256": "c1ab53088288ad528c5883456acd9772c022dd15dbdb5138b615cd4435b79ea3",
+        "sha256_in_prefix": "c1ab53088288ad528c5883456acd9772c022dd15dbdb5138b615cd4435b79ea3",
+        "size_in_bytes": 45658
+      },
+      {
+        "_path": "site-packages/arviz/tests/base_tests/test_rcparams.py",
+        "path_type": "hardlink",
+        "sha256": "90d9c633d81d2bb0afb9e3c68a47deb88d3e901413b9f811dc97c22e3af235fb",
+        "sha256_in_prefix": "90d9c633d81d2bb0afb9e3c68a47deb88d3e901413b9f811dc97c22e3af235fb",
+        "size_in_bytes": 10288
+      },
+      {
+        "_path": "site-packages/arviz/tests/base_tests/test_stats.py",
+        "path_type": "hardlink",
+        "sha256": "6da158ca88d38d732e2414cb9a6bfdaab4b445b5ff38f60b678cc4e04e24644e",
+        "sha256_in_prefix": "6da158ca88d38d732e2414cb9a6bfdaab4b445b5ff38f60b678cc4e04e24644e",
+        "size_in_bytes": 26317
+      },
+      {
+        "_path": "site-packages/arviz/tests/base_tests/test_stats_numba.py",
+        "path_type": "hardlink",
+        "sha256": "d3f525a4dee7f61bf81dc61e32d1cda4f4ed6369d82fd08d90d6cd8336fdcd49",
+        "sha256_in_prefix": "d3f525a4dee7f61bf81dc61e32d1cda4f4ed6369d82fd08d90d6cd8336fdcd49",
+        "size_in_bytes": 1767
+      },
+      {
+        "_path": "site-packages/arviz/tests/base_tests/test_stats_utils.py",
+        "path_type": "hardlink",
+        "sha256": "b62c795baa2670d82c3bfb18c13aa4e8152015e696297481c0d0073a1f80f6e1",
+        "sha256_in_prefix": "b62c795baa2670d82c3bfb18c13aa4e8152015e696297481c0d0073a1f80f6e1",
+        "size_in_bytes": 13944
+      },
+      {
+        "_path": "site-packages/arviz/tests/base_tests/test_utils.py",
+        "path_type": "hardlink",
+        "sha256": "5ed32c50ffa56d4bafa98afddea0cbd2b9ed58f240b65294b5b604417fd68701",
+        "sha256_in_prefix": "5ed32c50ffa56d4bafa98afddea0cbd2b9ed58f240b65294b5b604417fd68701",
+        "size_in_bytes": 9702
+      },
+      {
+        "_path": "site-packages/arviz/tests/base_tests/test_utils_numba.py",
+        "path_type": "hardlink",
+        "sha256": "95409c5eebb99b8890139152da4b4b892c8481099567a541ade2bc6e1af6f49c",
+        "sha256_in_prefix": "95409c5eebb99b8890139152da4b4b892c8481099567a541ade2bc6e1af6f49c",
+        "size_in_bytes": 3003
+      },
+      {
+        "_path": "site-packages/arviz/tests/conftest.py",
+        "path_type": "hardlink",
+        "sha256": "e94f56a4a9987f7f04551a0564d0695740ae9d0bc44811491b6489f0804490be",
+        "sha256_in_prefix": "e94f56a4a9987f7f04551a0564d0695740ae9d0bc44811491b6489f0804490be",
+        "size_in_bytes": 1270
+      },
+      {
+        "_path": "site-packages/arviz/tests/external_tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "5be1bbb9b1a3231f54da6b9d10d3a6753acf899f571ab9796e07b9ad36df001e",
+        "sha256_in_prefix": "5be1bbb9b1a3231f54da6b9d10d3a6753acf899f571ab9796e07b9ad36df001e",
+        "size_in_bytes": 26
+      },
+      {
+        "_path": "site-packages/arviz/tests/external_tests/test_data_cmdstan.py",
+        "path_type": "hardlink",
+        "sha256": "1bf746f67f1f9b8718419692d195b3debbdf652692791a0df11e0e567fcb0161",
+        "sha256_in_prefix": "1bf746f67f1f9b8718419692d195b3debbdf652692791a0df11e0e567fcb0161",
+        "size_in_bytes": 14584
+      },
+      {
+        "_path": "site-packages/arviz/tests/external_tests/test_data_cmdstanpy.py",
+        "path_type": "hardlink",
+        "sha256": "73a90851e6b7b8182cff0ddb6357ebf4032cee1183697111a4f6bc19fcfc40f6",
+        "sha256_in_prefix": "73a90851e6b7b8182cff0ddb6357ebf4032cee1183697111a4f6bc19fcfc40f6",
+        "size_in_bytes": 16708
+      },
+      {
+        "_path": "site-packages/arviz/tests/external_tests/test_data_emcee.py",
+        "path_type": "hardlink",
+        "sha256": "42d626ddc351724d56987493e85c209536165f715c73f4de14060505ce9f8d70",
+        "sha256_in_prefix": "42d626ddc351724d56987493e85c209536165f715c73f4de14060505ce9f8d70",
+        "size_in_bytes": 6278
+      },
+      {
+        "_path": "site-packages/arviz/tests/external_tests/test_data_numpyro.py",
+        "path_type": "hardlink",
+        "sha256": "3e212428a85e1afd45e4a23a46793aad2b7edfd98772eea3cfbe54133ecdfa85",
+        "sha256_in_prefix": "3e212428a85e1afd45e4a23a46793aad2b7edfd98772eea3cfbe54133ecdfa85",
+        "size_in_bytes": 9401
+      },
+      {
+        "_path": "site-packages/arviz/tests/external_tests/test_data_pyjags.py",
+        "path_type": "hardlink",
+        "sha256": "a6a8c37cd4daf07f08c7de472e295b1946c953bafaff7240ad804fee4e32b5b8",
+        "sha256_in_prefix": "a6a8c37cd4daf07f08c7de472e295b1946c953bafaff7240ad804fee4e32b5b8",
+        "size_in_bytes": 4518
+      },
+      {
+        "_path": "site-packages/arviz/tests/external_tests/test_data_pymc.py",
+        "path_type": "hardlink",
+        "sha256": "5f110488a39047556e2c8292eb87e8b9037b625b81262da36df1b695b171d4b4",
+        "sha256_in_prefix": "5f110488a39047556e2c8292eb87e8b9037b625b81262da36df1b695b171d4b4",
+        "size_in_bytes": 28350
+      },
+      {
+        "_path": "site-packages/arviz/tests/external_tests/test_data_pyro.py",
+        "path_type": "hardlink",
+        "sha256": "9fdd530f68da19523941f082f7188d3335f95bb481a0bcd82dba6b06de123f66",
+        "sha256_in_prefix": "9fdd530f68da19523941f082f7188d3335f95bb481a0bcd82dba6b06de123f66",
+        "size_in_bytes": 10814
+      },
+      {
+        "_path": "site-packages/arviz/tests/external_tests/test_data_pystan.py",
+        "path_type": "hardlink",
+        "sha256": "8bf368fc6a775c63a57d83d6f4075fbdc1ae5c1ca044cc9b1f50c2bcb92def9d",
+        "sha256_in_prefix": "8bf368fc6a775c63a57d83d6f4075fbdc1ae5c1ca044cc9b1f50c2bcb92def9d",
+        "size_in_bytes": 10618
+      },
+      {
+        "_path": "site-packages/arviz/tests/external_tests/test_data_tfp.py",
+        "path_type": "hardlink",
+        "sha256": "077cbe772fbb99cd6b5c139a3d01789187f39eb9fa8cc384154bde96b7708104",
+        "sha256_in_prefix": "077cbe772fbb99cd6b5c139a3d01789187f39eb9fa8cc384154bde96b7708104",
+        "size_in_bytes": 4401
+      },
+      {
+        "_path": "site-packages/arviz/tests/helpers.py",
+        "path_type": "hardlink",
+        "sha256": "2c253d0e17e66f446eecdededbbfea2f1f94bcecdb8134068140c02312d2e461",
+        "sha256_in_prefix": "2c253d0e17e66f446eecdededbbfea2f1f94bcecdb8134068140c02312d2e461",
+        "size_in_bytes": 24043
+      },
+      {
+        "_path": "site-packages/arviz/utils.py",
+        "path_type": "hardlink",
+        "sha256": "be180d08a1d94ff7f27776f87951f555c29d51cd2cbef258499e9f053fb4548f",
+        "sha256_in_prefix": "be180d08a1d94ff7f27776f87951f555c29d51cd2cbef258499e9f053fb4548f",
+        "size_in_bytes": 25934
+      },
+      {
+        "_path": "site-packages/arviz/wrappers/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "0b66f124b567e47d93bbc8b9f173f013faecf2b4242d9c9fe5b61e892d46ebfb",
+        "sha256_in_prefix": "0b66f124b567e47d93bbc8b9f173f013faecf2b4242d9c9fe5b61e892d46ebfb",
+        "size_in_bytes": 162
+      },
+      {
+        "_path": "site-packages/arviz/wrappers/base.py",
+        "path_type": "hardlink",
+        "sha256": "66719f60380f2e4359862cfab6f8e96bd8df93f48b91a31fd1ef09365682d550",
+        "sha256_in_prefix": "66719f60380f2e4359862cfab6f8e96bd8df93f48b91a31fd1ef09365682d550",
+        "size_in_bytes": 9080
+      },
+      {
+        "_path": "site-packages/arviz/wrappers/wrap_pystan.py",
+        "path_type": "hardlink",
+        "sha256": "39cdb36485d462d71759184724adb9869c69e6b9be3c73accc5cf2366c6dedd4",
+        "sha256_in_prefix": "39cdb36485d462d71759184724adb9869c69e6b9be3c73accc5cf2366c6dedd4",
+        "size_in_bytes": 2407
+      },
+      {
+        "_path": "Lib/site-packages/arviz/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/data/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/data/__pycache__/base.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/data/__pycache__/converters.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/data/__pycache__/datasets.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/data/__pycache__/inference_data.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/data/__pycache__/io_cmdstan.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/data/__pycache__/io_cmdstanpy.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/data/__pycache__/io_dict.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/data/__pycache__/io_emcee.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/data/__pycache__/io_json.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/data/__pycache__/io_netcdf.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/data/__pycache__/io_numpyro.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/data/__pycache__/io_pyjags.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/data/__pycache__/io_pymc3.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/data/__pycache__/io_pyro.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/data/__pycache__/io_pystan.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/data/__pycache__/io_tfp.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/plots/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/plots/__pycache__/autocorrplot.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/plots/backends/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/plots/backends/bokeh/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/plots/backends/bokeh/__pycache__/autocorrplot.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/plots/backends/bokeh/__pycache__/bpvplot.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/plots/backends/bokeh/__pycache__/compareplot.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/plots/backends/bokeh/__pycache__/densityplot.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/plots/backends/bokeh/__pycache__/distcomparisonplot.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/plots/backends/bokeh/__pycache__/distplot.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/plots/backends/bokeh/__pycache__/elpdplot.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/plots/backends/bokeh/__pycache__/energyplot.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/plots/backends/bokeh/__pycache__/essplot.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/plots/backends/bokeh/__pycache__/forestplot.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/plots/backends/bokeh/__pycache__/hdiplot.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/plots/backends/bokeh/__pycache__/jointplot.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/plots/backends/bokeh/__pycache__/kdeplot.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/plots/backends/bokeh/__pycache__/khatplot.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/plots/backends/bokeh/__pycache__/loopitplot.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/plots/backends/bokeh/__pycache__/mcseplot.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/plots/backends/bokeh/__pycache__/pairplot.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/plots/backends/bokeh/__pycache__/parallelplot.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/plots/backends/bokeh/__pycache__/posteriorplot.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/plots/backends/bokeh/__pycache__/ppcplot.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/plots/backends/bokeh/__pycache__/rankplot.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/plots/backends/bokeh/__pycache__/separationplot.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/plots/backends/bokeh/__pycache__/traceplot.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/plots/backends/bokeh/__pycache__/violinplot.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/plots/backends/matplotlib/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/plots/backends/matplotlib/__pycache__/autocorrplot.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/plots/backends/matplotlib/__pycache__/bpvplot.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/plots/backends/matplotlib/__pycache__/compareplot.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/plots/backends/matplotlib/__pycache__/densityplot.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/plots/backends/matplotlib/__pycache__/distcomparisonplot.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/plots/backends/matplotlib/__pycache__/distplot.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/plots/backends/matplotlib/__pycache__/elpdplot.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/plots/backends/matplotlib/__pycache__/energyplot.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/plots/backends/matplotlib/__pycache__/essplot.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/plots/backends/matplotlib/__pycache__/forestplot.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/plots/backends/matplotlib/__pycache__/hdiplot.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/plots/backends/matplotlib/__pycache__/jointplot.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/plots/backends/matplotlib/__pycache__/kdeplot.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/plots/backends/matplotlib/__pycache__/khatplot.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/plots/backends/matplotlib/__pycache__/loopitplot.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/plots/backends/matplotlib/__pycache__/mcseplot.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/plots/backends/matplotlib/__pycache__/pairplot.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/plots/backends/matplotlib/__pycache__/parallelplot.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/plots/backends/matplotlib/__pycache__/posteriorplot.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/plots/backends/matplotlib/__pycache__/ppcplot.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/plots/backends/matplotlib/__pycache__/rankplot.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/plots/backends/matplotlib/__pycache__/separationplot.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/plots/backends/matplotlib/__pycache__/traceplot.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/plots/backends/matplotlib/__pycache__/violinplot.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/plots/__pycache__/bpvplot.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/plots/__pycache__/compareplot.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/plots/__pycache__/densityplot.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/plots/__pycache__/distcomparisonplot.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/plots/__pycache__/distplot.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/plots/__pycache__/elpdplot.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/plots/__pycache__/energyplot.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/plots/__pycache__/essplot.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/plots/__pycache__/forestplot.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/plots/__pycache__/hdiplot.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/plots/__pycache__/jointplot.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/plots/__pycache__/kdeplot.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/plots/__pycache__/khatplot.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/plots/__pycache__/loopitplot.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/plots/__pycache__/mcseplot.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/plots/__pycache__/pairplot.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/plots/__pycache__/parallelplot.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/plots/__pycache__/plot_utils.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/plots/__pycache__/posteriorplot.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/plots/__pycache__/ppcplot.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/plots/__pycache__/rankplot.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/plots/__pycache__/separationplot.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/plots/__pycache__/traceplot.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/plots/__pycache__/violinplot.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/__pycache__/rcparams.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/stats/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/stats/__pycache__/density_utils.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/stats/__pycache__/diagnostics.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/stats/__pycache__/stats.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/stats/__pycache__/stats_refitting.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/stats/__pycache__/stats_utils.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/tests/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/tests/base_tests/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/tests/base_tests/__pycache__/test_data.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/tests/base_tests/__pycache__/test_data_zarr.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/tests/base_tests/__pycache__/test_diagnostics.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/tests/base_tests/__pycache__/test_diagnostics_numba.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/tests/base_tests/__pycache__/test_helpers.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/tests/base_tests/__pycache__/test_plot_utils.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/tests/base_tests/__pycache__/test_plots_bokeh.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/tests/base_tests/__pycache__/test_plots_matplotlib.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/tests/base_tests/__pycache__/test_rcparams.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/tests/base_tests/__pycache__/test_stats.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/tests/base_tests/__pycache__/test_stats_numba.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/tests/base_tests/__pycache__/test_stats_utils.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/tests/base_tests/__pycache__/test_utils.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/tests/base_tests/__pycache__/test_utils_numba.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/tests/__pycache__/conftest.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/tests/external_tests/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/tests/external_tests/__pycache__/test_data_cmdstan.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/tests/external_tests/__pycache__/test_data_cmdstanpy.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/tests/external_tests/__pycache__/test_data_emcee.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/tests/external_tests/__pycache__/test_data_numpyro.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/tests/external_tests/__pycache__/test_data_pyjags.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/tests/external_tests/__pycache__/test_data_pymc.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/tests/external_tests/__pycache__/test_data_pyro.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/tests/external_tests/__pycache__/test_data_pystan.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/tests/external_tests/__pycache__/test_data_tfp.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/tests/__pycache__/helpers.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/__pycache__/utils.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/wrappers/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/wrappers/__pycache__/base.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/arviz/wrappers/__pycache__/wrap_pystan.cpython-38.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "991bb47320288dba6db02ada351a3b0cccdaa1593b2a795c24698da59c67b569",
+  "size": 1381170,
+  "subdir": "noarch",
+  "timestamp": 1614019231460,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/arviz-0.11.2-pyhd3eb1b0_0.conda",
+  "version": "0.11.2"
+}
